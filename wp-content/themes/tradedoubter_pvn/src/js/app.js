@@ -3,7 +3,9 @@ import $ from "jquery";
 import "../sass/app.sass";
 
 import HeroHomepage from "./blocks/HeroHomepage.block";
-import ProductDescription from "./blocks/ProductDescription.block";
+import Benefits from "./blocks/Benefits.block";
+import References from "./blocks/References.block";
+import Features from "./blocks/Features.block";
 
 import BurgerMenu from "./modules/BurgerMenu.module";
 import ScrollTop from "./modules/ScrollTop.module";
@@ -16,5 +18,7 @@ $(document).ready(() => {
   BurgerMenu.init();
   ScrollTop.init();
   HeaderPrimary.init();
-  ProductDescription.init();
+  References.init();
+  Benefits.init();
+  Features.init();
 })

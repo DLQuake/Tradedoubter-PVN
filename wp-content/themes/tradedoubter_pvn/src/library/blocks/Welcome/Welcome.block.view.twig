@@ -7,16 +7,20 @@
 				<a class="b-Welcome__title-text-button" id="feature0" href="#Tofeature">{{fields.view_features}}</a>
 			{% endif %}
 		</div>
-		{% if fields.laptop %}
-			<img class="b-Welcome__title-image" src="{{fields.laptop}}" alt="laptop">
-		{% endif %}
+		<div class="b-Welcome__title-image">
+			{% if fields.laptop %}
+				<img class="b-Welcome__title-image" src="{{fields.laptop}}" alt="laptop">
+			{% endif %}
+		</div>
 	</div>
 
 	<div class="b-Welcome__program">
 		<div class="b-Welcome__program-square"></div>
-		{% if fields.dashboard_program %}
-			<img class="b-Welcome__program-image" src="{{fields.dashboard_program}}" alt="Dashboard">
-		{% endif %}
+		<div class="b-Welcome__program-image">
+			{% if fields.dashboard_program %}
+				<img class="b-Welcome__program-image" src="{{fields.dashboard_program}}" alt="Dashboard">
+			{% endif %}
+		</div>
 		<div class="b-Welcome__program-square b-Welcome__program-square--big"></div>
 	</div>
 

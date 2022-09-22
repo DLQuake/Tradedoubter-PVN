@@ -3,6 +3,25 @@
     "title": "Block Features",
     "fields": [
         {
+            "key": "field_632c506cf6dec",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_632ad73abd959",
             "label": "ManageAdvertisers",
             "name": "manageadvertisers",
@@ -380,5 +399,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1663752699
+    "show_in_rest": 0,
+    "modified": 1663848620
 }

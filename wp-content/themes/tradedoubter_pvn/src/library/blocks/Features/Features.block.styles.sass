@@ -20,6 +20,9 @@
         line-height: 82px
         color: #283C43
         text-align: center
+        +max($bp-xxs)
+            font-size: 7vw
+            line-height: 41px
 
     &__navigation
         display: flex
@@ -77,10 +80,19 @@
             flex-direction: column
             gap: 40px
             margin-top: 100px
+            +max($bp-xlg)
+                margin: 0
+            +max($bp-xxs)
+                align-items: center
 
             &--reverse
                 margin-top: 100px
                 align-items: flex-end
+                +max($bp-xlg)
+                    margin: 0
+                    align-items: flex-start
+                +max($bp-xxs)
+                    align-items: center
 
         &--white
             background: $white
@@ -90,14 +102,24 @@
             font-size: 40px
             line-height: 54px
             color: $black
+            +max($bp-xxs)
+                text-align: center
 
         &-container
             display: flex
             gap: 158px
             +fslh(17, 32)
+            +max($bp-xlg)
+                flex-direction: column-reverse
+                align-items: center
+                gap: 24px
 
             &--reverse
                 flex-direction: row-reverse
+                +max($bp-xlg)
+                    flex-direction: column-reverse
+                    align-items: center
+                    gap: 24px
 
             &-list
                 display: flex
@@ -112,38 +134,5 @@
 
             &-image
                 filter: drop-shadow(0px 64px 64px rgba(189, 205, 214, 0.28))
-
-
-@media (max-width: 1180px)
-    .b-Features
-        &__feature
-            &-contents
-                margin: 0
-                &--reverse
-                    margin: 0
-                    align-items: flex-start
-            &-container
-                flex-direction: column-reverse
-                align-items: center
-                gap: 24px
-
-
-@media (max-width: 830px)
-    .b-Features
-        &__feature
-            &-container
-                &-image
+                +max($bp-md)
                     width: 95vw
-
-@media (max-width: 460px)
-    .b-Features
-        &__title
-            font-size: 7vw
-            line-height: 41px
-        &__feature
-            &-title
-                text-align: center
-            &-contents
-                align-items: center
-                &--reverse
-                    align-items: center

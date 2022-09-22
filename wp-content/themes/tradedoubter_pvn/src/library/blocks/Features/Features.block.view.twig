@@ -1,17 +1,14 @@
 <section class="b-Features" id="Tofeature">
 	<img class="b-Features__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
 	<div class="b-Features__container">
-		<h1 class="b-Features__title">Features of Tradedoubler PVN</h1>
+		<h1 class="b-Features__title">{{fields.title}}</h1>
 
 		<div class="b-Features__navigation">
 			<div class="b-Features__navigation-rectangle"></div>
 			<ul class="b-Features__navigation-list">
-				<li><a class="b-Features__navigation-list-item" id="feature1" href="#Tofeature1">Manage Advertisers</a></li>
-				<li><a class="b-Features__navigation-list-item" id="feature2" href="#Tofeature2">Manage Publishers</a></li>
-				<li><a class="b-Features__navigation-list-item" id="feature3" href="#Tofeature3">Tracking</a></li>
-				<li><a class="b-Features__navigation-list-item" id="feature4" href="#Tofeature4">Reporting</a></li>
-				<li><a class="b-Features__navigation-list-item" id="feature5" href="#Tofeature5">Branded Platform</a></li>
-				<li><a class="b-Features__navigation-list-item" id="feature6" href="#Tofeature6">Manage Payments</a></li>
+				{% for item in nav.features.items %}
+					<li><a class="b-Features__navigation-list-item" href="{{item.url}}">{{item.title}}</a></li>
+				{% endfor %}
 			</ul>
 			<div class="b-Features__navigation-rectangle"></div>
 		</div>

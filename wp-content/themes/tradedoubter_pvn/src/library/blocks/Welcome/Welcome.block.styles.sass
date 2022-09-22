@@ -8,20 +8,25 @@
     margin-bottom: 101px
 
     &__title
-        padding-bottom: 800px
         display: flex
         justify-content: space-between
         gap: 40px
-
-        &--nopadding
-            padding: 0
-            width: 80%
+        +max($bp-lg)
+            justify-content: center
+            flex-direction: column
+        +max($bp-sm)
+            flex-direction: column-reverse
+            align-items: center
 
         &-text
             display: flex
             flex-direction: column
             gap: 25px
             color: $white
+            +max($bp-sm)
+                align-items: center
+                text-align: center
+                margin-bottom: 150px
 
             &-small
                 font-weight: 400
@@ -33,6 +38,9 @@
                 font-weight: 700
                 font-size: 60px
                 line-height: 82px
+                +max($bp-sm)
+                    width: 100%
+                    +fslh(30, 41)
 
             &-button
                 width: 197px
@@ -55,18 +63,25 @@
                     background: $blue
                     color: $white
 
+        &-image
+            width: 736px
+            +max($bp-sm)
+                width: 70vw
+
     &__program
         display: flex
-        position: absolute
         z-index: 1
         gap: 7.239583333333333vw
-
-        &--gap
-            gap: 1362px
+        +max($bp-sm)
+            display: none
 
         &-image
             filter: drop-shadow(0px 24px 34px rgba(0, 0, 0, 0.11))
             border-radius: 5px
+            width: 1150px
+            height: 726px
+            +max($bp-lg)
+                width: 100vw
 
         &-square
             width: 70px
@@ -74,26 +89,24 @@
             background: $blue
             border-radius: 6px
             position: relative
-            top: 280px
-
-            &--top
-                top: 80px
-
-            &-minustop
-                top: -80px !important
+            top: 213px
+            +max($bp-lg)
+                display: none
 
             &--big
                 width: 138px
                 height: 138px
-                top: 140px
+                top: 70px
 
     &__image
         width: 100%
-        // height: 400px
         position: absolute
         box-shadow: 0px 290px 0px 0px $white
-
-        &--boxshadow
+        +max($bp-xxlg)
+            box-shadow: 0px 223px 0px 140px $white
+        +max($bp-lg)
+            box-shadow: 0px 400px 0px 250px $white
+        +max($bp-sm)
             position: static
             height: auto
             box-shadow: 0px 10px 0 0px $white
@@ -110,65 +123,24 @@
         color: $black
         background: $white
         box-shadow: 0px -50px 0px 0px $white
+        +max($bp-xxlg)
+            position: relative
+            box-shadow: none
 
         &-big-text
             width: 857px
             font-weight: 700
             font-size: 60px
             line-height: 82px
+            +max($bp-sm)
+                width: 100%
+                +fslh(60, 60)
 
         &-small-text
             width: 857px
             font-weight: 400
             font-size: 20px
             line-height: 35px
-
-@media (max-width: 1650px)
-    .b-Welcome
-        &__program
-            &-square
-                display: none
-
-@media (max-width: 1460px)
-    .b-Welcome
-        &__title
-            flex-direction: column-reverse
-            align-items: center
-            padding: 0 0 20px 0
-
-            &--nopadding
-                align-items: flex-start
-
-            &-image
-                width: 50vw
-
-            &-text
-                padding: 10px
-                &-big
-                    width: 100%
-                    font-size: 30px
-                    line-height: 41px
-
-                    &--size
-                        font-size: 60px
-                &-button
-                    padding: 11px 20px
-
-        &__program
-            display: none
-
-        &__image
-            box-shadow: none
-            position: relative
-
-        &__whatWeDo
-            position: relative
-            box-shadow: none
-            &-big-text
+            +max($bp-sm)
                 width: 100%
-                font-size: 8vw
-                line-height: 7vw
-            &-small-text
-                width: 100%
-                font-size: 5vw
-                line-height: 6vw
+                +fslh(18, 30)
