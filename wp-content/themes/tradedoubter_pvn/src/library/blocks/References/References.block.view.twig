@@ -1,0 +1,61 @@
+{% if fields.title and fields.slide1 and fields.slide2 %}
+    <section class="b-References" id="Toreferences">
+        <img class="b-References__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
+        <div class="b-References__container">
+            <div class="b-References__title">
+                <h1 class="b-References__title-big">{{fields.title.big}}</h1>
+                <p class="b-References__title-small">{{fields.title.small}}</p>
+            </div>
+
+            <div class="b-References__slider swiper">
+                <div class="b-References__slider-wrapper swiper-wrapper">
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one" src="{{fields.slide1.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide1.text}}</p>
+                    </div>
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one b-References__slider-slide-image-one--size" src="{{fields.slide2.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide2.text}}</p>
+                    </div>
+
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one b-References__slider-slide-image-one--size" src="{{fields.slide2.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide2.text}}</p>
+                    </div>
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one" src="{{fields.slide1.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide1.text}}</p>
+                    </div>
+
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one" src="{{fields.slide1.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide1.text}}</p>
+                    </div>
+                    <div class="b-References__slider-slide swiper-slide">
+                        <div class="b-References__slider-slide-image">
+                            <img class="b-References__slider-slide-image-one" src="{{fields.slide1.image}}" alt="logo of Empik">
+                            <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+                        </div>
+                        <p class="b-References__slider-slide-text">{{fields.slide1.text}}</p>
+                    </div>
+                </div>
+                <div class="b-References__slider-pagination swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+{% endif %}

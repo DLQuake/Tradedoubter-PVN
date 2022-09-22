@@ -1,0 +1,26 @@
+{% if fields.title and fields.aboutus1 and fields.aboutus2 %}
+    <section class="b-About-us">
+        <h1 class="b-About-us__title">{{fields.title}}</h1>
+        <div class="b-About-us__flex">
+            <div class="b-About-us__flex-text">
+                <h1 class="b-About-us__flex-text-big">{{fields.aboutus1.title}}</h1>
+                <p class="b-About-us__flex-text-small">
+                    <span class="b-About-us__flex-text-small--bold">{{fields.aboutus1.textbold}}</span>
+                    {{fields.aboutus1.text}}
+                </p>
+            </div>
+            <img class="b-About-us__flex-image" src="{{fields.aboutus1.image}}" alt="Bulding">
+        </div>
+
+        <div class="b-About-us__flex">
+            <img class="b-About-us__flex-image b-About-us__flex-image--nobackground" src="{{fields.aboutus2.image}}" alt="interior">
+            <div class="b-About-us__flex-text">
+                <h1 class="b-About-us__flex-text-big">{{fields.aboutus2.title}}</h1>
+                <p class="b-About-us__flex-text-small">
+                    <span class="b-About-us__flex-text-small--bold">{{fields.aboutus2.textbold}}</span>
+                    {{fields.aboutus2.text}}
+                </p>
+            </div>
+        </div>
+    </section>
+{% endif %}

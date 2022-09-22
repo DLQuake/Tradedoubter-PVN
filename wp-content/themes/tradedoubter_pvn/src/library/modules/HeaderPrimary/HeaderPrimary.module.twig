@@ -1,0 +1,26 @@
+<div class="m-HeaderPrimary">
+	<div class="m-HeaderPrimary__container">
+		<a href="/Tradedoubter_PVN">
+			<img src="{{theme.link}}/static/img/logo-white-blue.svg" alt="Tradedoubter PVN" class="m-HeaderPrimary__logo"/>
+		</a>
+		<ul class="m-HeaderPrimary__menu -desktop">
+			{% for item in nav.primary.items %}
+				<li class="m-HeaderPrimary__item">
+					{% include "modules/Button/Button.module.twig" with {
+						type: "link",
+						link: item.link,
+						text: item.title
+					}%}
+				</li>
+			{% endfor %}
+		</ul>
+		<a class="m-HeaderPrimary__link" href="#">Give it try</a>
+		<div class="m-HeaderPrimary__menu -mobile">
+			{% include "modules/BurgerMenu/BurgerMenu.module.twig" with {
+				stickColor: "white"
+			}%}
+		</div>
+	</div>
+
+	<div class="m-HeaderPrimary__rectangle"></div>
+</div>

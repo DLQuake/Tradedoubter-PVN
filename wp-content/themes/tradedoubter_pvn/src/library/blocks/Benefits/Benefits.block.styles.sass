@@ -1,0 +1,80 @@
+.benefits
+    width: 100%
+
+    &__image
+        width: 100%
+        position: relative
+        top: 6px
+
+    &__container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 70px
+        background: #283C43
+        padding: 100px
+
+    &__title
+        font-weight: 700
+        font-size: 60px
+        line-height: 82px
+        text-align: center
+        color: $white
+
+    &__slider
+        width: 100%
+
+        &-slide
+            width: 235px !important
+            border: 1px solid #374F57
+            border-radius: 6px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            gap: 84px
+            padding: 49px 130px 37px 40px
+            transition: all 0.3s ease-in-out !important
+
+            &:hover
+                cursor: pointer
+                background: #31464E
+
+            &-image
+                width: 35px
+                height: 35px
+
+            &-text
+                width: 220px
+                font-weight: 600
+                font-size: 23px
+                line-height: 30px
+                color: $white
+
+        &-pagination
+            position: relative !important
+            bottom: 0
+            margin-top: 48px
+
+.swiper-pagination-bullet
+    width: 12px !important
+    height: 12px !important
+    margin: 10px !important
+
+@media (max-width: 440px)
+    .benefits
+        &__title
+            font-size: 10vw
+            line-height: 41px
+
+        &__container
+            padding: 100px 10px
+
+        &__slider
+            &-slide
+                width: 10px !important
+                height: 250px !important
+                &-text
+                    width: 100%
+                    font-size: 4vw
+                    line-height: 5vw

@@ -1,0 +1,30 @@
+{% if fields.title and fields.agencies and fields.advertiser and fields.publishers and fields.button %}
+    <section class="b-Clients">
+        <h1 class="b-Clients__title">{{fields.title}}</h1>
+
+        <div class="b-Clients__client">
+            <div class="b-Clients__client-item">
+                <img src="{{fields.agencies.image}}" alt="agencies">
+                <h1 class="b-Clients__client-item-title">{{fields.agencies.title}}</h1>
+                <p class="b-Clients__client-item-text">{{fields.agencies.text}}</p>
+            </div>
+
+            <div class="b-Clients__client-item">
+                <img src="{{fields.advertiser.image}}" alt="advertiser">
+                <h1 class="b-Clients__client-item-title">{{fields.advertiser.title}}</h1>
+                <p class="b-Clients__client-item-text">{{fields.advertiser.text}}</p>
+            </div>
+
+            <div class="b-Clients__client-item">
+                <img src="{{fields.publishers.image}}" alt="publishers">
+                <h1 class="b-Clients__client-item-title">{{fields.publishers.title}}</h1>
+                <p class="b-Clients__client-item-text">{{fields.publishers.text}}</p>
+            </div>
+        </div>
+
+        <div class="b-Clients__button" id="client">{{fields.button}}</div>
+
+        <div class="b-Clients__rectangle" id="Toaboutus"></div>
+    </section>
+{% endif %}
+

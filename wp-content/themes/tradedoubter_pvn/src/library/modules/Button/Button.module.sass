@@ -1,0 +1,20 @@
+.m-Button
+  -webkit-appearance: none
+  display: inline-block
+  color: $white
+  width: auto !important
+  +fslh(18, 30)
+  font-weight: 400
+  font-family: $font-primary
+  border: none
+  outline: none
+  text-decoration: none
+  text-align: center
+  cursor: pointer
+  transition: background-color 0.2s linear
+  &:hover
+    color: $blue
+    +max($bp-sm)
+      background-color: $white
+  +max($bp-sm)
+    +fslh(15, 25)

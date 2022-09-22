@@ -1,0 +1,87 @@
+.b-About-us
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 176px
+    margin-top: 150px
+
+    &__title
+        font-weight: 700
+        font-size: 60px
+        line-height: 82px
+        text-align: center
+        color: $black
+
+    &__flex
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        gap: 166px
+
+        &-text
+            width: 608px
+            height: auto
+            display: flex
+            justify-content: center
+            flex-direction: column
+            gap: 30px
+
+            &-big
+                width: 496px
+                font-weight: 900
+                font-size: 33.7558px
+                line-height: 108%
+                color: $black
+
+            &-small
+                font-weight: 400
+                font-size: 20px
+                line-height: 35px
+                color: $black
+                display: flex
+                flex-direction: column
+                gap: 30px
+
+                &--bold
+                    font-weight: 700
+
+        &-image
+            background: #F5F9FB
+            border-radius: 8px
+            padding: 57px 129px
+
+            &--nobackground
+                background: none
+                padding: 0
+                border-radius: 0
+
+@media (max-width: 1500px)
+    .b-About-us
+        justify-content: center
+        align-items: center
+
+        &__flex
+            flex-direction: column-reverse
+            align-items: center
+            justify-content: center
+
+            &-image
+                width: 300px
+
+            &-text
+                width: 70vw
+                gap: 20px
+
+                &-big
+                    width: 100%
+
+@media (max-width: 600px)
+    .b-About-us
+        &__title
+            font-size: 10vw
+
+        &__flex
+            &-image
+                width: 40vw
+                padding: 80px

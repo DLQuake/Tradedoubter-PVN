@@ -1,0 +1,149 @@
+.b-Features
+    width: 100%
+
+    &__image
+        width: 100%
+        position: relative
+        top: 6px
+
+    &__container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 50px
+        background: $other-grey
+
+    &__title
+        font-weight: 700
+        font-size: 60px
+        line-height: 82px
+        color: #283C43
+        text-align: center
+
+    &__navigation
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 40px
+        background: $other-grey
+        width: 100%
+        z-index: 1
+        position: sticky
+        top: 0
+        +max($bp-sm)
+            display: none
+
+        &-rectangle
+            width: 85.41666666666667vw
+            height: 1px
+            background: #C2D1D7
+
+        &-list
+            display: flex
+            gap: 3.59375vw
+            list-style: none
+
+            &-item
+                font-weight: 400
+                font-size: 17px
+                line-height: 32px
+                color: $black
+                text-decoration: none
+
+                &.active
+                    color: #0099CC
+                    text-decoration: underline
+                    text-underline-offset: -62px
+                    text-decoration-thickness: 3px
+
+                &:hover
+                    color: #0099CC
+                    text-decoration: underline
+                    text-underline-offset: -62px
+                    text-decoration-thickness: 3px
+
+    &__feature
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 40px
+        padding-top: 100px
+        padding-bottom: 100px
+        width: 100%
+
+        &-contents
+            display: flex
+            flex-direction: column
+            gap: 40px
+            margin-top: 100px
+
+            &--reverse
+                margin-top: 100px
+                align-items: flex-end
+
+        &--white
+            background: $white
+
+        &-title
+            font-weight: 700
+            font-size: 40px
+            line-height: 54px
+            color: $black
+
+        &-container
+            display: flex
+            gap: 158px
+            +fslh(17, 32)
+
+            &--reverse
+                flex-direction: row-reverse
+
+            &-list
+                display: flex
+                flex-direction: column
+                justify-content: center
+                gap: 30px
+
+                &-item
+                    display: flex
+                    align-items: center
+                    gap: 20px
+
+            &-image
+                filter: drop-shadow(0px 64px 64px rgba(189, 205, 214, 0.28))
+
+
+@media (max-width: 1180px)
+    .b-Features
+        &__feature
+            &-contents
+                margin: 0
+                &--reverse
+                    margin: 0
+                    align-items: flex-start
+            &-container
+                flex-direction: column-reverse
+                align-items: center
+                gap: 24px
+
+
+@media (max-width: 830px)
+    .b-Features
+        &__feature
+            &-container
+                &-image
+                    width: 95vw
+
+@media (max-width: 460px)
+    .b-Features
+        &__title
+            font-size: 7vw
+            line-height: 41px
+        &__feature
+            &-title
+                text-align: center
+            &-contents
+                align-items: center
+                &--reverse
+                    align-items: center

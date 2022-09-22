@@ -1,0 +1,35 @@
+<div class="b-Welcome">
+	<div class="b-Welcome__title">
+		<div class="b-Welcome__title-text">
+			<div class="b-Welcome__title-text-small">Tradedoubler PVN</div>
+			<div class="b-Welcome__title-text-big">{{fields.title}}</div>
+			{% if fields.view_features %}
+				<a class="b-Welcome__title-text-button" id="feature0" href="#Tofeature">{{fields.view_features}}</a>
+			{% endif %}
+		</div>
+		{% if fields.laptop %}
+			<img class="b-Welcome__title-image" src="{{fields.laptop}}" alt="laptop">
+		{% endif %}
+	</div>
+
+	<div class="b-Welcome__program">
+		<div class="b-Welcome__program-square"></div>
+		{% if fields.dashboard_program %}
+			<img class="b-Welcome__program-image" src="{{fields.dashboard_program}}" alt="Dashboard">
+		{% endif %}
+		<div class="b-Welcome__program-square b-Welcome__program-square--big"></div>
+	</div>
+
+	<img class="b-Welcome__image" src="{{theme.link}}/static/img/WAVE-white.svg" alt="WAVE-white">
+
+	{% if fields.whatwedobigtext and fields.whatwedosmalltext %}
+		<div class="b-Welcome__whatWeDo">
+			<div class="b-Welcome__whatWeDo-big-text">
+				{{fields.whatwedobigtext}}
+			</div>
+			<div class="b-Welcome__whatWeDo-small-text">
+				{{fields.whatwedosmalltext}}
+			</div>
+		</div>
+	{% endif %}
+</div>

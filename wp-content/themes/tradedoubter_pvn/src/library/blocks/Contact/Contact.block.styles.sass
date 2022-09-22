@@ -1,0 +1,240 @@
+.b-Contact
+  overflow: hidden
+  position: relative
+  +max($bp-sm)
+    overflow: visible
+    background-color: $purple
+
+  &__decorator
+    position: absolute
+    left: 50%
+    z-index: 1
+
+    &.-main
+      top: calc(50% + 70px)
+      transform: translate(-50%, -50%)
+      +max($bp-xlg)
+        max-width: 100px
+      +max($bp-sm)
+        top: auto
+        bottom: 0
+        max-width: 79px
+        transform: translate(-50%, 50%)
+
+    &.-top
+      top: 0
+      transform: translate(-50%, -33%)
+      &.-desktop
+        +max($bp-sm)
+          display: none
+      &.-mobile
+        display: none
+        +max($bp-sm)
+          display: block
+          transform: translate(-50%, -55%)
+
+    &.-bottom
+      bottom: 0
+      transform: translate(-50%, 60%)
+      +max($bp-sm)
+        display: none
+
+  &__container
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    +max($bp-sm)
+      grid-template-columns: 100%
+
+  &__left
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: $white
+    padding: 367px 52px 225px
+    +max($bp-lg)
+      padding-top: 275px
+      padding-bottom: 175px
+    +max($bp-sm)
+      padding: 196px 52px 150px
+    +max($bp-xxxs)
+      padding-left: 20px
+      padding-right: 20px
+
+  &__box
+    max-width: 419px
+
+  &__title
+    color: $purple
+    +fslh(48, 54)
+    font-weight: 900
+    +max($bp-sm)
+      +fslh(28, 31)
+      margin-bottom: 8px
+
+  &__text
+    color: $black
+    +fslh(18, 24)
+    font-weight: 500
+    margin-bottom: 36px
+    +max($bp-sm)
+      margin-bottom: 50px
+
+  &__info
+    display: flex
+    flex-direction: column
+    gap: 8px
+    margin-bottom: 120px
+    +max($bp-sm)
+      margin-bottom: 48px
+
+  &__item
+    display: flex
+    align-items: center
+    gap: 12px
+
+    span
+      color: $purple
+      font-size: 16px
+
+  &__detail
+    color: $black
+    +fslh(18, 22)
+
+  &__socials
+    display: flex
+    align-items: center
+    gap: 23px
+    +max($bp-sm)
+      gap: 18px
+
+  &__link
+    display: block
+    text-decoration: none
+
+    img
+      display: block
+      width: 100%
+      max-width: 35px
+      +max($bp-sm)
+        max-width: 27px
+
+  &__right
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: $purple
+    padding: 367px 52px 197px
+    position: relative
+    +max($bp-lg)
+      padding: 275px 52px 175px
+    +max($bp-sm)
+      padding: 102px 66px 96px
+    +max($bp-xxxs)
+      padding-left: 20px
+      padding-right: 20px
+
+  &__form
+    width: 100%
+    max-width: 414px
+    position: relative
+    +max($bp-sm)
+      max-width: 100%
+
+    form
+      p
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 100%
+        span
+          display: flex
+          justify-content: center
+          width: 100%
+
+      .wpcf7-response-output
+        position: absolute
+        top: -16px
+        left: 0
+        width: 100%
+        transform: translateY(-100%)
+        border-radius: 100px
+        background-color: rgba(255, 159, 159, 0.9)
+        padding: 16px 32px !important
+        color: $black
+        font-size: 20px
+        line-height: 1.2
+        font-weight: 500
+        text-align: center
+        border: none !important
+        margin: 0 !important
+
+      &.invalid
+        .wpcf7-response-output
+          background-color: rgba(255, 221, 129, 0.9)
+          padding: 16px 20px !important
+
+      &.sent
+        .wpcf7-response-output
+          background-color: rgba(168, 224, 160, 0.9)
+          padding: 16px 20px !important
+
+      .wpcf7-not-valid-tip
+        display: inline
+        font-size: 16px
+        font-weight: 400
+        position: absolute
+        bottom: 5px
+        left: 32px
+        pointer-events: none
+
+    .wpcf7-form-control-wrap
+      &:last-child
+        margin-bottom: 19px
+
+    input, textarea
+      display: block
+      padding: 20px 32px
+      background-color: $white
+      border: none
+      outline: none
+      resize: none
+      width: 100%
+      color: $black
+      +fslh(18, 18)
+      font-family: $font-primary
+      font-weight: 400
+      caret-color: $black
+      border-radius: 5px
+      max-width: calc(100% - 17px)
+      +max($bp-sm)
+        max-width: calc(100% - 12px)
+
+      &::placeholder
+        color: $darkGrey
+
+      &[type="submit"]
+        display: inline-block
+        +fslh(24, 24)
+        font-weight: 900
+        font-family: $font-primary
+        letter-spacing: 0
+        padding: 20px 32px 16px
+        border-radius: 28px
+        border: none
+        outline: none
+        text-decoration: none
+        text-align: center
+        cursor: pointer
+        transition: background-color 0.2s linear
+        background-color: #2D2D2D
+        color: $white
+        width: 100%
+        max-width: 100%
+        &:hover
+          background-color: #333333
+          +max($bp-sm)
+            background-color: $black
+
+    textarea
+      height: 207px

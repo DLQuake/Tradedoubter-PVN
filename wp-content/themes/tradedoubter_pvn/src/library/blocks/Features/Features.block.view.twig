@@ -1,0 +1,251 @@
+<section class="b-Features" id="Tofeature">
+	<img class="b-Features__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
+	<div class="b-Features__container">
+		<h1 class="b-Features__title">Features of Tradedoubler PVN</h1>
+
+		<div class="b-Features__navigation">
+			<div class="b-Features__navigation-rectangle"></div>
+			<ul class="b-Features__navigation-list">
+				<li><a class="b-Features__navigation-list-item" id="feature1" href="#Tofeature1">Manage Advertisers</a></li>
+				<li><a class="b-Features__navigation-list-item" id="feature2" href="#Tofeature2">Manage Publishers</a></li>
+				<li><a class="b-Features__navigation-list-item" id="feature3" href="#Tofeature3">Tracking</a></li>
+				<li><a class="b-Features__navigation-list-item" id="feature4" href="#Tofeature4">Reporting</a></li>
+				<li><a class="b-Features__navigation-list-item" id="feature5" href="#Tofeature5">Branded Platform</a></li>
+				<li><a class="b-Features__navigation-list-item" id="feature6" href="#Tofeature6">Manage Payments</a></li>
+			</ul>
+			<div class="b-Features__navigation-rectangle"></div>
+		</div>
+
+		{# <!-- feature 1 --> #}
+		{% if fields.manageadvertisers %}
+			<div class="b-Features__feature" id="Tofeature1">
+				<div class="b-Features__feature-contents">
+					<div class="b-Features__feature-title">{{fields.manageadvertisers.title}}</div>
+					<div class="b-Features__feature-container">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Create programs for advertisers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Manage publishers within the program
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Select which events are tracked
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Private access for your advertisers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Set your Tradedoubler PVN user Publisher commission
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Manage ad content
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Add bonus payments for publishers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Manage and validate transactions
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Communication with publishers
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.manageadvertisers.image}}" alt="Feature_Manage">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		{# <!-- feature 2 --> #}
+		{% if fields.managepublishers %}
+			<div class="b-Features__feature b-Features__feature--white" id="Tofeature2">
+				<div class="b-Features__feature-contents b-Features__feature-contents--reverse">
+					<div class="b-Features__feature-title">{{fields.managepublishers.title}}</div>
+					<div class="b-Features__feature-container b-Features__feature-container--reverse">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Connect publishers to programs
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Private access for your publishers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								API access
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Automated invoicing
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Check the status of individual transactions
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Create manage all websites used by publishers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Unlimited websites per publisher account
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.managepublishers.image}}" alt="Feature_Manage">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		{# <!-- feature 3 --> #}
+		{% if fields.tracking %}
+			<div class="b-Features__feature" id="Tofeature3">
+				<div class="b-Features__feature-contents">
+					<div class="b-Features__feature-title">{{fields.tracking.title}}</div>
+					<div class="b-Features__feature-container">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Tracking solution for all marketing activities
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Pixel Tracking
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Product Level Tracking
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Ad serving tools
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Branded Tracking
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.tracking.image}}" alt="Feature_Manage">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		{# <!-- feature 4 --> #}
+		{% if fields.reporting %}
+			<div class="b-Features__feature b-Features__feature--white" id="Tofeature4">
+				<div class="b-Features__feature-contents b-Features__feature-contents--reverse">
+					<div class="b-Features__feature-title">{{fields.reporting.title}}</div>
+					<div class="b-Features__feature-container b-Features__feature-container--reverse">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Reports to manage and track activity through your network
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Access for your advertisers & publishers to report
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Real-time API Reporting
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Financial reports
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Activity reports
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Bookmark your favorite reports
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.reporting.image}}" alt="Feature_Manage" zoom-induration="1000">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		{# <!-- feature 5 --> #}
+		{% if fields.brandedplatform %}
+			<div class="b-Features__feature" id="Tofeature5">
+				<div class="b-Features__feature-contents">
+					<div class="b-Features__feature-title">{{fields.brandedplatform.title}}</div>
+					<div class="b-Features__feature-container">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Brand your platform with your Corporate Identity
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Give your advertisers and publishers access to a dedicated platform
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Manage advertiser & publisher's access
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Branded Tracking
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.brandedplatform.image}}" alt="Feature_Manage">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		{# <!-- feature 6 --> #}
+		{% if fields.managepayments %}
+			<div class="b-Features__feature b-Features__feature--white" id="Tofeature6">
+				<div class="b-Features__feature-contents b-Features__feature-contents--reverse">
+					<div class="b-Features__feature-title">{{fields.managepayments.title}}</div>
+					<div class="b-Features__feature-container b-Features__feature-container--reverse">
+						<div class="b-Features__feature-container-list">
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Tradedoubler PVN handles payout to publishers
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Optional independent management of payment
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Connect API to automate your tasks
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Payout possible in EUR, USD, PLN, GBP
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Other currency options with Payoneer integration
+							</div>
+							<div class="b-Features__feature-container-list-item">
+								<img class="b-Features__feature-container-list-image" src="{{theme.link}}/static/img/check.svg" alt="check">
+								Payout to all your active markets
+							</div>
+						</div>
+						<img class="b-Features__feature-container-image" src="{{fields.managepayments.image}}" alt="Feature_Manage">
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+</section>

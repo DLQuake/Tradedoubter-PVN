@@ -1,0 +1,100 @@
+.m-FooterPrimary
+  background-color: $other-black
+  width: 100%
+  padding: 119px 117px
+  +max($bp-md)
+    padding-left: 0px
+    padding-right: 0px
+
+  &__navigation
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 53px
+    +max($bp-md)
+      padding-left: 80px
+      padding-right: 80px
+
+    &-container
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      align-items: center
+      width: 85.41666666666667vw
+      +max($bp-md)
+        gap: 40px
+
+    &-menu
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      gap: 40px
+      .m-Button
+        width: 180px
+        padding-left: 8px
+        padding-right: 8px
+
+      +max($bp-sm)
+        justify-content: flex-start
+
+    &-link
+      font-size: 18px
+      padding: 10px 30px
+      color: $white
+      text-decoration: none
+      border: 1px solid $white
+      border-radius: 5px 6px 6px 6px
+
+      &:hover
+        background: $blue
+        color: $white
+
+    &-rectangle
+      width: 85.41666666666667vw
+      height: 1px
+      background: $white
+      opacity: 0.2
+      border-radius: 0px 0px 5px 5px
+
+
+  &__data
+    padding: 57px 0 0 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    +max($bp-sm)
+      width: 100%
+      justify-content: flex-start
+      align-items: flex-start
+      flex-direction: column-reverse
+      gap: 29px
+      padding-left: 40px
+      padding-right: 40px
+
+    &-copyrithing
+      font-weight: 400
+      font-size: 16px
+      line-height: 22px
+      color: $white
+      opacity: 0.4
+
+    &-socials
+      display: flex
+      gap: 6px
+
+      &-item
+        display: flex
+        align-items: center
+        justify-content: center
+        color: $white
+        width: 50px
+        height: 50px
+        background: #304248
+        border-radius: 50%
+        text-decoration: none
+
+        &-image
+          width: 30px
+          height: 30px

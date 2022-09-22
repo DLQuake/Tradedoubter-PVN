@@ -1,0 +1,55 @@
+<div class="m-BurgerMenu">
+  {% if stickColor == "purple" %}
+  <img src="{{theme.link}}/static/img/burger-menu-open-purple.svg" alt="Open menu" class="m-BurgerMenu__open">
+  {% else %}
+  <img src="{{theme.link}}/static/img/burger-menu-open.svg" alt="Open menu" class="m-BurgerMenu__open">
+  {% endif %}
+  <div class="m-BurgerMenu__slide">
+    <div class="m-BurgerMenu__top">
+      <a href="/">
+        <img src="{{theme.link}}/static/img/logo-purple.svg" alt="PAS YISROEL" class="m-BurgerMenu__logo">
+      </a>
+      <img src="{{theme.link}}/static/img/burger-menu-close.svg" alt="Open menu" class="m-BurgerMenu__close">
+    </div>
+    <div class="m-BurgerMenu__container">
+      <ul class="m-BurgerMenu__menu">
+        {% for item in nav.burger.items %}
+        <li class="m-BurgerMenu__item">
+          {% if item.children %}
+          {% include "modules/Button/Button.module.twig" with {
+          type: "button",
+          text: item.title,
+          drop: true
+          }%}
+          <ul class="m-BurgerMenu__drop">
+            {% for child in item.children %}
+            <li class="m-BurgerMenu__childItem">
+              {% include "modules/Button/Button.module.twig" with {
+              type: "link",
+              color: "lightPurple",
+              link: child.link,
+              text: child.title
+              }%}
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          {% include "modules/Button/Button.module.twig" with {
+          type: "link",
+          link: item.link,
+          text: item.title
+          }%}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="m-BurgerMenu__socials">
+        {% for item in socialmedia %}
+          <a href="{{item.social_media_adress.url}}" title="{{item.social_media_adress.title}}" class="m-BurgerMenu__socialItem">
+            <img src="{{item.social_media_icon}}" alt="{{item.social_media_adress.title}}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

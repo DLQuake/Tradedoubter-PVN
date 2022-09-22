@@ -1,0 +1,104 @@
+.b-References
+    width: 100%
+    margin-top: 150px
+    &__image
+        width: 100%
+        position: relative
+        top: 6px
+
+    &__container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 70px
+        padding: 100px
+        background: #F5F9FB
+
+    &__title
+        color: $black
+        text-align: center
+
+        &-big
+            font-weight: 700
+            font-size: 60px
+            line-height: 82px
+
+        &-small
+            font-weight: 400
+            font-size: 20px
+            line-height: 35px
+
+    &__slider
+        width: 100%
+        &-slide
+            width: 720px !important
+            height: 550px !important
+            display: flex
+            flex-direction: column
+            justify-content: center
+            gap: 84px
+            padding: 67px 62px
+            transition: all 0.3s ease-in-out
+            background: #ffffff
+
+            &:hover
+                background: #c9c7c7
+
+            &-image
+                display: flex
+                justify-content: space-between
+                height: 120px
+
+                &-one
+                    width: 158.01px
+                    height: 56.44px
+
+                    &--size
+                        height: 120px
+
+                &-two
+                    width: 73.53px
+                    height: 60px
+                    position: relative
+                    top: -90px
+
+            &-text
+                width: 677px
+                font-style: italic
+                font-weight: 600
+                font-size: 20px
+                line-height: 31px
+                color: $black
+
+        &-pagination
+            position: relative !important
+            bottom: 0
+            margin-top: 48px
+
+.swiper-pagination-bullet
+    width: 12px !important
+    height: 12px !important
+    margin: 10px !important
+
+@media (max-width: 810px)
+    .b-References
+        &__container
+            padding: 100px 0
+        &__slider
+            &-slide
+                width: 60vw !important
+                height: 1450px !important
+
+                &-text
+                    width: 100%
+
+@media (max-width: 350px)
+    .b-References
+        &__title
+            &-big
+                font-size: 10vw
+
+            &-small
+                font-size: 7vw
+                line-height: 30px

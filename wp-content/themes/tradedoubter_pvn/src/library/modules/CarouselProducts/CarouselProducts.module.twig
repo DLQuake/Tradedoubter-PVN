@@ -1,0 +1,27 @@
+<div class="m-CarouselProducts ">
+  <div class="m-CarouselProducts__box swiper">
+    <div class="m-CarouselProducts__swiper swiper-wrapper">
+    {% for arg in args %}
+      <div class="swiper-slide">
+        {% include "modules/ProductCard/ProductCard.module.twig" with {
+          link: arg.url_post,
+          title: arg.title_post,
+          text: arg.post_excerpt,
+          image: arg.post_image,
+          imageAlt:  arg.title_post,
+          textLayout: textLayout,
+          imageWidthNormal: imageWidthNormal,
+          imageHeightNormal: imageHeightNormal,
+          imageWidthSmall: imageWidthSmall,
+          imageHeightSmall: imageHeightSmall,
+        }%}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  {% if pagination %}
+    <div class="swiper-pagination"></div>
+  {% endif %}  
+</div>
