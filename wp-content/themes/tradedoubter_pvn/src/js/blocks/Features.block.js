@@ -27,7 +27,7 @@ const Features = {
         window.addEventListener("scroll", event => {
             let fromTop = window.scrollY;
 
-            this.stickymenu.forEach(link => {
+            this.settings.stickymenu.forEach(link => {
                 let section = document.querySelector(link.hash);
 
                 if (

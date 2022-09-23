@@ -3,14 +3,6 @@
 $config['gutenberg_blocks'] = [
   'path' => get_stylesheet_directory() . '/src/library/blocks',
   'blocks' => [
-    'Contact' => [
-      'name'              => 'Contact',
-      'title'             => 'Contact',
-    ],
-    'CarouselRepeated' => [
-      'name'              => 'Carousel Repeated',
-      'title'             => 'CarouselRepeated',
-    ],
     'Welcome' => [
       'name' => 'Welcome',
       'title' => 'Welcome,'
@@ -34,6 +26,10 @@ $config['gutenberg_blocks'] = [
     'References' => [
       'name' => 'References',
       'title' => 'References,'
+    ],
+    'News' => [
+      'name' => 'News',
+      'title' => 'News,'
     ],
   ]
 ];

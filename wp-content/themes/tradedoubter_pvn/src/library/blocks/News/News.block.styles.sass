@@ -1,0 +1,106 @@
+.b-News
+    width: 100%
+    display: flex
+    flex-direction: column
+    gap: 88px
+
+    &__pages
+        display: flex
+        align-items: center
+        justify-content: center
+
+        &-page
+            &-container
+                display: flex
+                flex-wrap: wrap
+                align-items: center
+                justify-content: center
+                gap: 40px
+
+            &-item
+                width: 520px
+                height: 633px
+                display: flex
+                flex-direction: column
+                background: #F5F9FB
+                border-radius: 8px
+
+                &-text
+                    width: 436px
+                    padding: 32px 42px 64px 42px
+                    display: flex
+                    flex-direction: column
+
+                    &-big
+                        font-weight: 700
+                        font-size: 30px
+                        line-height: 41px
+                        color: $black
+                        margin-bottom: 16px
+
+                    &-small
+                        font-weight: 400
+                        font-size: 17px
+                        line-height: 32px
+                        color: $black
+                        margin-bottom: 24px
+
+                    &-more
+                        display: flex
+                        justify-content: space-between
+
+                        &-date
+                            font-weight: 600
+                            font-size: 15px
+                            line-height: 32px
+                            color: $black
+                            opacity: 0.5
+
+                        &-link
+                            font-weight: 700
+                            font-size: 17px
+                            line-height: 32px
+                            text-underline-position: under
+                            color: $blue
+
+                            &:hover
+                                color: $black
+                                transition: all 0.3s ease-in-out
+
+    &__buttons
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 72px
+
+        &-item
+            font-weight: 700
+            font-size: 17px
+            line-height: 32px
+            color: $black
+            text-decoration: underline
+            text-underline-position: under
+            opacity: 0.5
+
+            &:hover
+                color: $blue
+                cursor: pointer
+
+            &--blue
+                color: $blue
+                opacity: 1
+
+                &:hover
+                    color: $black
+                    cursor: pointer
+
+@media (max-width: 540px)
+    .news
+        &__pages
+            &-page
+                &-item
+                    width: 90vw
+                    margin-bottom: 22px
+                    &-text
+                        background: #F5F9FB
+                        width: 65vw

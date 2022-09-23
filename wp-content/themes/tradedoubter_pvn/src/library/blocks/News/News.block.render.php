@@ -1,6 +1,6 @@
 <?php
 
-function acf_block_render_callback_Contact($block)
+function acf_block_render_callback_News($block)
 {
   $slug = str_replace('acf/', '', $block['name']);
 
@@ -8,5 +8,5 @@ function acf_block_render_callback_Contact($block)
   $context['block'] = $block;
   $context['fields'] = get_fields();
 
-  Timber::render('./Contact.block.view.twig', $context);
+  Timber::render('./News.block.view.twig', $context);
 }

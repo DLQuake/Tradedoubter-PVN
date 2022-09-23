@@ -14,6 +14,8 @@
         gap: 70px
         padding: 100px
         background: #F5F9FB
+        +max($bp-sm)
+            padding: 100px 0
 
     &__title
         color: $black
@@ -23,11 +25,16 @@
             font-weight: 700
             font-size: 60px
             line-height: 82px
+            +max($bp-xxxs)
+                font-size: 10vw
 
         &-small
             font-weight: 400
             font-size: 20px
             line-height: 35px
+            +max($bp-xxxs)
+                font-size: 7vw
+                line-height: 30px
 
     &__slider
         width: 100%
@@ -41,6 +48,9 @@
             padding: 67px 62px
             transition: all 0.3s ease-in-out
             background: #ffffff
+            +max($bp-sm)
+                width: 60vw !important
+                height: 1450px !important
 
             &:hover
                 background: #c9c7c7
@@ -48,7 +58,7 @@
             &-image
                 display: flex
                 justify-content: space-between
-                height: 120px
+                height: 40px
 
                 &-one
                     width: 158.01px
@@ -62,6 +72,7 @@
                     height: 60px
                     position: relative
                     top: -90px
+                    z-index: 1
 
             &-text
                 width: 677px
@@ -70,6 +81,8 @@
                 font-size: 20px
                 line-height: 31px
                 color: $black
+                +max($bp-sm)
+                    width: 100%
 
         &-pagination
             position: relative !important
@@ -80,25 +93,3 @@
     width: 12px !important
     height: 12px !important
     margin: 10px !important
-
-@media (max-width: 810px)
-    .b-References
-        &__container
-            padding: 100px 0
-        &__slider
-            &-slide
-                width: 60vw !important
-                height: 1450px !important
-
-                &-text
-                    width: 100%
-
-@media (max-width: 350px)
-    .b-References
-        &__title
-            &-big
-                font-size: 10vw
-
-            &-small
-                font-size: 7vw
-                line-height: 30px
