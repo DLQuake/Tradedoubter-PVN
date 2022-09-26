@@ -24,9 +24,11 @@
                 flex-direction: column
                 background: #F5F9FB
                 border-radius: 8px
+                +max($bp-xs)
+                    width: 90vw
+                    margin-bottom: 22px
 
                 &-text
-                    width: 436px
                     padding: 32px 42px 64px 42px
                     display: flex
                     flex-direction: column
@@ -93,14 +95,3 @@
                 &:hover
                     color: $black
                     cursor: pointer
-
-@media (max-width: 540px)
-    .news
-        &__pages
-            &-page
-                &-item
-                    width: 90vw
-                    margin-bottom: 22px
-                    &-text
-                        background: #F5F9FB
-                        width: 65vw

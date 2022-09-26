@@ -1,160 +1,29 @@
-<section class="b-News">
-	<div class="b-News__pages">
-		<div class="b-News__pages-page">
-			<div class="b-News__pages-page-container">
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news1.png" alt="News 1">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Good to know for Back-to-School season
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							The Back-to-School season is a fantastic opportunity
-							to create a successful affiliate marketing campaign.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
+{% if fields.page %}
+	<section class="b-News">
+		<div class="b-News__pages">
+			{% for page in fields.page %}
+				<div class="b-News__pages-page">
+					<div class="b-News__pages-page-container">
+						{% for item in page.item %}
+							<div class="b-News__pages-page-item">
+								<img class="b-News__pages-page-item-image" src="{{item.image}}" alt="News 1">
+								<div class="b-News__pages-page-item-text">
+									<h1 class="b-News__pages-page-item-text-big">{{item.title}}</h1>
+									<p class="b-News__pages-page-item-text-small">{{item.text}}</p>
+									<div class="b-News__pages-page-item-text-more">
+										<p class="b-News__pages-page-item-text-more-date">{{item.date}}</p>
+										<a href="#" class="b-News__pages-page-item-text-more-link">{{item.link}}</a>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
 					</div>
 				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news2.png" alt="News 2">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Affiliate marketing with a partner management.
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							Do you want to manage your affiliate marketing on
-							your own with the technology of a leading affiliate
-							network?
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news3.png" alt="News 3">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Successful social media campaign during the summer sales
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							The Back-to-School season is a fantastic opportunity
-                            to create a successful affiliate marketing campaign.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news4.png" alt="News 4">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							The impact of Russia war against Ukraine on eCommerce
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							The strong sales growth in eCommerce has slowed
-							down significantly since the earth-shattering war.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news5.png" alt="News 5">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							The most effective affiliate program - empik
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							Mobile App Marketing covers a complete life cycle of a
-							user. It is designed to attract new users, improve
-							retention, and lower the churn rate.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news6.png" alt="News 6">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							TikTok continues to be the top-performing app
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							Did you know that Tradedoubler are one of the first
-                            certified partners of TikTok? Take your chance now
-                            and generate great reach for your brand.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news1.png" alt="News 1">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Good to know for Back-to-School season
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							The Back-to-School season is a fantastic opportunity
-							to create a successful affiliate marketing campaign.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news2.png" alt="News 2">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Affiliate marketing with a partner management.
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							Do you want to manage your affiliate marketing on
-							your own with the technology of a leading affiliate
-							network?
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="b-News__pages-page-item">
-					<img class="b-News__pages-page-item-image" src="img/news3.png" alt="News 3">
-					<div class="b-News__pages-page-item-text">
-						<h1 class="b-News__pages-page-item-text-big">
-							Successful social media campaign during the summer sales
-						</h1>
-						<p class="b-News__pages-page-item-text-small">
-							The Back-to-School season is a fantastic opportunity
-                            to create a successful affiliate marketing campaign.
-						</p>
-						<div class="b-News__pages-page-item-text-more">
-							<p class="b-News__pages-page-item-text-more-date">August 17,2022</p>
-							<a href="#" class="b-News__pages-page-item-text-more-link">Read more</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			{% endfor %}
 		</div>
-	</div>
-	<div class="b-News__buttons">
-		<a class="b-News__buttons-item" onclick="plusPages(-1)">Previous page</a>
-		<a class="b-News__buttons-item b-ews__buttons-item--blue" onclick="plusPages(1)">Next page</a>
-	</div>
-</section>
+		<div class="b-News__buttons">
+			<a class="b-News__buttons-item">Previous page</a>
+			<a class="b-News__buttons-item b-News__buttons-item--blue">Next page</a>
+		</div>
+	</section>
+{% endif %}

@@ -1,4 +1,4 @@
-{% if fields.title and fields.slide1 and fields.slide2 and fields.slide3 and fields.slide4 %}
+{% if fields.title and fields.slide %}
 	<section class="b-Benefits">
 		<img class="b-Benefits__image" src="{{theme.link}}/static/img/WAVE-black.svg" alt="WAVE-black">
 		<div class="b-Benefits__container">
@@ -6,54 +6,12 @@
 
 			<div class="b-Benefits__slider swiper">
 				<div class="b-Benefits__slider-wrapper swiper-wrapper">
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide1.image}}" alt="chart">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide1.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide2.image}}" alt="no ads">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide2.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide3.image}}" alt="clock">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide3.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide4.image}}" alt="computer">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide4.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide4.image}}" alt="computer">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide4.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide1.image}}" alt="chart">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide1.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide3.image}}" alt="clock">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide3.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide2.image}}" alt="no ads">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide2.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide3.image}}" alt="clock">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide3.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide2.image}}" alt="no ads">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide2.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide4.image}}" alt="computer">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide4.text}}</p>
-					</div>
-					<div class="b-Benefits__slider-slide swiper-slide">
-						<img class="b-Benefits__slider-slide-image" src="{{fields.slide1.image}}" alt="chart">
-						<p class="b-Benefits__slider-slide-text">{{fields.slide1.text}}</p>
-					</div>
+					{% for item in fields.slide %}
+						<div class="b-Benefits__slider-slide swiper-slide">
+							<img class="b-Benefits__slider-slide-image" src="{{item.image}}" alt="chart">
+							<p class="b-Benefits__slider-slide-text">{{item.text}}</p>
+						</div>
+					{% endfor %}
 				</div>
 				<div class="b-Benefits__slider-pagination swiper-pagination"></div>
 			</div>

@@ -1,8 +1,8 @@
 import $ from 'jquery';
-const References = {
+const News = {
   settings: {
-    target: '.b-References',
-    slider: '.b-References__slider',
+    target: '.b-News',
+    slider: '.b-News__pages',
   },
   init(args) {
     this.settings = $.extend(true, this.settings, args);
@@ -26,17 +26,11 @@ const References = {
   },
   initSwiper() {
     const swiper = new Swiper(this.$target.slider[0], {
-      slidesPerView: 2,
-      spaceBetween: 30,
-      slidesPerGroup: 2,
-      mousewheel: true,
-
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     })
   },
 };
-export default References;
+export default News;
