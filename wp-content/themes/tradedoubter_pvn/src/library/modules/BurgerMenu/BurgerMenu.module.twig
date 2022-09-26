@@ -10,16 +10,18 @@
 		<div class="m-BurgerMenu__container">
 			<ul class="m-BurgerMenu__menu">
 				{% for item in nav.burger.items %}
-					<li><a class="m-BurgerMenu__item" href="{{item.url}}">{{item.title}}</a></li>
+					<li>
+						<a class="m-BurgerMenu__item" href="{{item.url}}">{{item.title}}</a>
+					</li>
 				{% endfor %}
 			</ul>
-      <div class="m-BurgerMenu__socials">
-        {% for item in socialmedia %}
-          <a href="{{item.social_media_adress.url}}" title="{{item.social_media_adress.title}}" class="m-BurgerMenu__socialItem">
-            <img src="{{item.social_media_icon}}" alt="{{item.social_media_adress.title}}">
-          </a>
-        {% endfor %}
-      </div>
+			<div class="m-BurgerMenu__socials">
+				{% for item in socialmedia %}
+					<a href="{{item.social_media_adress.url}}" title="{{item.social_media_adress.title}}" class="m-BurgerMenu__socialItem">
+						<img src="{{item.social_media_icon}}" alt="{{item.social_media_adress.title}}">
+					</a>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
