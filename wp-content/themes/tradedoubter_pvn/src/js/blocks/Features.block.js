@@ -1,14 +1,14 @@
 import $ from 'jquery';
+import ActiveMenuLink from "active-menu-link";
 const Features = {
     settings: {
         target: '.b-Features',
-        stickymenu: 'b-Features__feature-container-list-item',
+        stickymenu: '.b-Features__navigation',
     },
     init(args) {
         this.settings = $.extend(true, this.settings, args);
         if ($(this.settings.target).length > 0) {
             this.catchDOM(this.settings, this.afterInit.bind(this));
-            this.stickyMenu();
         }
     },
     afterInit() {
@@ -18,28 +18,15 @@ const Features = {
         const target = $(settings.target);
         this.$target = {
             root: target,
+            stickymenu: target.find(settings.stickymenu),
         };
         callback();
     },
     bindEvents() {
+        $(window).on("scroll", this.initStickyMenu.bind(this));
     },
-    stickyMenu() {
-        window.addEventListener("scroll", event => {
-            let fromTop = window.scrollY;
-
-            this.settings.stickymenu.forEach(link => {
-                let section = document.querySelector(link.hash);
-
-                if (
-                    section.offsetTop <= fromTop &&
-                    section.offsetTop + section.offsetHeight > fromTop
-                ) {
-                    link.classList.add("active");
-                } else {
-                    link.classList.remove("active");
-                }
-            });
-        });
-    }
+    initStickyMenu() {
+        new ActiveMenuLink(".b-Features__navigation");
+    },
 };
 export default Features;

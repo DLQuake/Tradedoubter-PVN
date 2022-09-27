@@ -23,6 +23,7 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
+    "active-menu-link": "^1.1.8",
     "autoprefixer": "^9.6.1",
     "icon-font-generator": "^2.1.10",
     "twig": "^1.14.0"
