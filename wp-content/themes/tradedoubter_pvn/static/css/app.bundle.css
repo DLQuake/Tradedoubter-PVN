@@ -1289,7 +1289,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 53px; }
+  gap: 53px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
   @media only screen and (max-width: 969px) {
     .m-HeaderPrimary {
       padding-left: 80px;
