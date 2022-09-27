@@ -462,7 +462,6 @@ body {
               -ms-flex-align: center;
                   align-items: center; } }
       .b-Features__feature-contents--reverse {
-        margin-top: 100px;
         -webkit-box-align: end;
             -ms-flex-align: end;
                 align-items: flex-end; }
