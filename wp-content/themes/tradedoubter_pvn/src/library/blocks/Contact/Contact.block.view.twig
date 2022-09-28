@@ -1,0 +1,28 @@
+<section class="b-Contact" id="Tocontact">
+    <div class="b-Contact__title">
+        <h1 class="b-Contact__title-big">{{fields.title.big}}</h1>
+        <p class="b-Contact__title-small">{{fields.title.small}}</p>
+    </div>
+
+    <form class="b-Contact__form">
+        <input class="b-Contact__form-item" type="text" placeholder="First Name">
+        <input class="b-Contact__form-item" type="text" placeholder="Last Name">
+        <input class="b-Contact__form-item" type="email" placeholder="Email">
+        <input class="b-Contact__form-item" type="text"placeholder="Company name">
+        <select class="b-Contact__form-item-select" name="markatplaces">
+            <option class="b-Contact__form-item-select--option" value="Country" disabled selected hidden>Country</option>
+            {% for item in fields.select %}
+                <option class="b-Contact__form-item-select--option" value="value">{{item.option}}</option>
+            {% endfor %}
+        </select>
+        <input class="b-Contact__form-item" type="tel" placeholder="Phone number">
+        <textarea class="b-Contact__form-item b-Contact__form-item--textarea" placeholder="Message" cols="10" rows="10"></textarea>
+
+        <div class="b-Contact__form-item-politics">
+            {{fields.politics.text}}
+            <a class="b-Contact__form-item-politics--link" href="#">{{fields.politics.link}}</a>
+        </div>
+
+        <button class="b-Contact__form-item b-Contact__form-item--submit"  type="submit">{{fields.button}}</button>
+    </form>
+</section>
