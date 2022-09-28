@@ -1,8 +1,8 @@
-{% if fields.page %}
-	<section class="b-News">
-		<div class="b-News__pages">
+<section class="b-News">
+	<div class="b-News__pages swiper">
+		<div class="b-News__pages-wrapper swiper-wrapper">
 			{% for page in fields.page %}
-				<div class="b-News__pages-page">
+				<div class="b-News__pages-page swiper-slide">
 					<div class="b-News__pages-page-container">
 						{% for item in page.item %}
 							<div class="b-News__pages-page-item">
@@ -21,9 +21,9 @@
 				</div>
 			{% endfor %}
 		</div>
-		<div class="b-News__buttons">
-			<a class="b-News__buttons-item">Previous page</a>
-			<a class="b-News__buttons-item b-News__buttons-item--blue">Next page</a>
-		</div>
-	</section>
-{% endif %}
+	</div>
+	<div class="b-News__buttons">
+		<a class="b-News__buttons-item swiper-button-prev">Previous page</a>
+		<a class="b-News__buttons-item b-News__buttons-item--blue swiper-button-next">Next page</a>
+	</div>
+</section>

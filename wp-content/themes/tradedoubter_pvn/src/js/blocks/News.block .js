@@ -26,6 +26,7 @@ const News = {
   },
   initSwiper() {
     const swiper = new Swiper(this.$target.slider[0], {
+      spaceBetween: 80,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
