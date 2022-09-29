@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "active-menu-link": "^1.1.8",
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^9.6.1",
     "icon-font-generator": "^2.1.10",
     "twig": "^1.14.0"

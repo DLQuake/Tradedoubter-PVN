@@ -26,11 +26,12 @@ const References = {
   },
   initSwiper() {
     const swiper = new Swiper(this.$target.slider[0], {
-      slidesPerView: 2,
       spaceBetween: 30,
-      slidesPerGroup: 2,
       mousewheel: true,
-
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',

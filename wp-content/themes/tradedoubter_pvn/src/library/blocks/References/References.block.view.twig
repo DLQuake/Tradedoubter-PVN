@@ -1,26 +1,42 @@
 {% if fields.title and fields.slide %}
-    <section class="b-References" id="Toreferences">
-        <img class="b-References__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
-        <div class="b-References__container">
-            <div class="b-References__title">
-                <h1 class="b-References__title-big">{{fields.title.big}}</h1>
-                <p class="b-References__title-small">{{fields.title.small}}</p>
-            </div>
+	<section class="b-References" id="Toreferences">
+		<img class="b-References__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
+		<div class="b-References__container">
+			<div class="b-References__title">
+				<h1 class="b-References__title-big">{{fields.title.big}}</h1>
+				<p class="b-References__title-small">{{fields.title.small}}</p>
+			</div>
 
-            <div class="b-References__slider swiper">
-                <div class="b-References__slider-wrapper swiper-wrapper">
-                    {% for item in fields.slide %}
-                        <div class="b-References__slider-slide swiper-slide">
-                            <div class="b-References__slider-slide-image">
-                                <img class="b-References__slider-slide-image-one" src="{{item.image}}" alt="logo of Empik">
-                                <img class="b-References__slider-slide-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
-                            </div>
-                            <p class="b-References__slider-slide-text">{{item.text}}</p>
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="b-References__slider-pagination swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
+			<div class="b-References__slider swiper">
+				<div class="b-References__slider-wrapper swiper-wrapper">
+					{% for slide in fields.slide %}
+						<div class="b-References__slider-slide swiper-slide">
+							<div class="b-References__slider-slide-container">
+								{% for item in slide.item %}
+									{% if loop.index > 1 %}
+										<div class="b-References__slider-slide-item b-References__slider-slide-item--nodisplay">
+											<div class="b-References__slider-slide-item-image">
+												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" alt="logo of Empik">
+												<img class="b-References__slider-slide-item-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+											</div>
+											<p class="b-References__slider-slide-item-text">{{item.text}}</p>
+										</div>
+									{% else %}
+										<div class="b-References__slider-slide-item">
+											<div class="b-References__slider-slide-item-image">
+												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" alt="logo of Empik">
+												<img class="b-References__slider-slide-item-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
+											</div>
+											<p class="b-References__slider-slide-item-text">{{item.text}}</p>
+										</div>
+									{% endif %}
+								{% endfor %}
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+				<div class="b-References__slider-pagination swiper-pagination"></div>
+			</div>
+		</div>
+	</section>
 {% endif %}
