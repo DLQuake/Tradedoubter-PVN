@@ -39,51 +39,60 @@
     &__slider
         width: 100%
         &-slide
-            width: 835px !important
-            height: 550px !important
-            display: flex
-            flex-direction: column
-            justify-content: center
-            gap: 170px
-            padding: 67px 62px
-            transition: all 0.3s ease-in-out
-            background: #ffffff
-            margin: 28px 0
-            +max($bp-sm)
-                width: 60vw !important
-                height: 790px !important
-
-            &:hover
-                background: #c9c7c7
-
-            &-image
+            // width: 100% !important
+            &-container
+                margin: 40px 0
                 display: flex
-                justify-content: space-between
-                height: 40px
+                justify-content: center
+                gap: 40px
 
-                &-one
-                    width: 158.01px
-                    // height: 56.44px
-                    height: 120px
-
-                    &--size
-
-                &-two
-                    width: 73.53px
-                    height: 60px
-                    position: relative
-                    top: -90px
-                    z-index: 1
-
-            &-text
-                width: 677px
-                font-style: italic
-                font-weight: 600
-                font-size: 20px
-                line-height: 31px
-                color: $black
+            &-item
+                width: 42.96875vw !important
+                display: flex
+                flex-direction: column
+                justify-content: center
+                gap: 170px
+                padding: 67px 62px
+                transition: all 0.3s ease-in-out
+                background: #ffffff
                 +max($bp-sm)
-                    width: 100%
+                    width: 100% !important
+                    height: auto !important
+
+                &--nodisplay
+                    +max($bp-sm)
+                        display: none
+
+                &:hover
+                    background: #c9c7c7
+
+                &-image
+                    display: flex
+                    justify-content: space-between
+                    height: 40px
+
+                    &-one
+                        width: 158.01px
+                        height: 120px
+
+                        &--size
+
+                    &-two
+                        width: 73.53px
+                        height: 60px
+                        position: relative
+                        top: -90px
+                        z-index: 1
+
+                &-text
+                    // width: 677px
+                    font-style: italic
+                    font-weight: 600
+                    font-size: 20px
+                    line-height: 31px
+                    color: $black
+                    +max($bp-sm)
+                        width: 100%
 
         &-pagination
             position: relative !important
