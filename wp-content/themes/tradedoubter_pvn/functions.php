@@ -34,11 +34,11 @@ ini_set('upload_max_size', '64M');
 ini_set('post_max_size', '64M');
 ini_set('max_execution_time', '300');
 
-add_action( 'admin_menu', 'my_remove_admin_menus' );
-function my_remove_admin_menus() {
-  remove_menu_page( 'edit-comments.php' );
-  remove_menu_page( 'edit.php' );
-}
+// add_action( 'admin_menu', 'my_remove_admin_menus' );
+// function my_remove_admin_menus() {
+//   remove_menu_page( 'edit-comments.php' );
+//   remove_menu_page( 'edit.php' );
+// }
 
 
 function reg_tag() {
