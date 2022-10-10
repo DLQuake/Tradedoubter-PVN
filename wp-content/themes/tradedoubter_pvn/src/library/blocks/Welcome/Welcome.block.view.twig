@@ -7,11 +7,11 @@
 				<a class="b-Welcome__title-text-button" id="feature0" href="#Tofeature">{{fields.title.button}}</a>
 			{% endif %}
 		</div>
-		<div class="b-Welcome__title-image">
-			{% if fields.title.image %}
+		{% if fields.title.image %}
+			<div class="b-Welcome__title-image">
 				<img class="b-Welcome__title-image" src="{{fields.title.image}}" alt="laptop">
-			{% endif %}
-		</div>
+			</div>
+		{% endif %}
 	</div>
 
 	{% if fields.dashboard_program and fields.whatwedo %}
