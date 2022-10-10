@@ -8,29 +8,29 @@
   align-items: center
   gap: 53px
   +max($bp-md)
-    padding-left: 80px
-    padding-right: 80px
 
   &__container
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     flex-wrap: wrap
     align-items: center
-    width: 100%
+    width: 83%
     +max($bp-md)
+      gap: 20px
+    +max($bp-sm)
       flex-wrap: nowrap
-    +max($bp-xxxs)
-      justify-content: center
-
+      gap: 0
 
   &__logo
-    display: block
+    // display: block
     +max($bp-xxs)
       width: 120px
 
   &__menu
     display: flex
     gap: 40px
+    +max($bp-sm)
+      display: none
     .m-Button
       width: 180px
       padding-left: 8px
