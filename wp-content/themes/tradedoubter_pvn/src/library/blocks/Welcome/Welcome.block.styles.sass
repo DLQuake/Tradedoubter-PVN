@@ -8,15 +8,15 @@
     margin-bottom: 101px
 
     &__title
+        width: 83%
         display: flex
         justify-content: space-between
         gap: 40px
-        +max($bp-lg)
-            justify-content: center
-            flex-direction: column
+        +max($bp-xxlg)
+            margin-bottom: 85px
         +max($bp-sm)
+            margin: 0
             flex-direction: column-reverse
-            align-items: center
 
         &-text
             display: flex
@@ -24,9 +24,9 @@
             gap: 25px
             color: $white
             +max($bp-sm)
-                align-items: center
-                text-align: center
-                margin-bottom: 150px
+                margin-bottom: 50px
+            +max($bp-xs)
+                margin-bottom: 45px
 
             &-small
                 font-weight: 400
@@ -34,13 +34,13 @@
                 line-height: 23px
 
             &-big
-                width: 663px
                 font-weight: 700
                 font-size: 60px
                 line-height: 82px
                 +max($bp-sm)
                     width: 100%
                     +fslh(30, 41)
+                    // +fslh(30, 41)
 
             &-button
                 width: 197px
@@ -64,9 +64,9 @@
                     color: $white
 
         &-image
-            width: 736px
+            width: 39.947916666666664vw
             +max($bp-sm)
-                width: 70vw
+                width: 82vw
 
     &__program
         display: flex
@@ -93,7 +93,7 @@
             border-radius: 6px
             position: relative
             top: 215px
-            +max($bp-lg)
+            +max($bp-xxlg)
                 display: none
 
             &--big
@@ -133,6 +133,8 @@
         +max($bp-xxlg)
             position: relative
             box-shadow: none
+        +max($bp-sm)
+            padding-top: 30px
 
         &-big-text
             width: 857px
@@ -140,8 +142,8 @@
             font-size: 60px
             line-height: 82px
             +max($bp-sm)
-                width: 100%
-                +fslh(60, 60)
+                width: 83%
+                +fslh(30, 41)
 
         &-small-text
             width: 857px
@@ -149,5 +151,5 @@
             font-size: 20px
             line-height: 35px
             +max($bp-sm)
-                width: 100%
+                width: 83%
                 +fslh(18, 30)
