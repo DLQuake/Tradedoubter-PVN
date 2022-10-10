@@ -72,8 +72,7 @@
         flex-direction: column
         align-items: center
         gap: 40px
-        padding-top: 100px
-        padding-bottom: 100px
+        padding: 100px 20px
         width: 100%
 
         &-contents
@@ -110,14 +109,12 @@
             +fslh(17, 32)
             +max($bp-xlg)
                 flex-direction: column-reverse
-                align-items: center
                 gap: 24px
 
             &--reverse
                 flex-direction: row-reverse
                 +max($bp-xlg)
                     flex-direction: column-reverse
-                    align-items: center
                     gap: 24px
 
             &-list
@@ -136,5 +133,5 @@
 
             &-image
                 filter: drop-shadow(0px 64px 64px rgba(189, 205, 214, 0.28))
-                +max($bp-md)
-                    width: 95vw
+                +max($bp-sm)
+                    width: 90vw
