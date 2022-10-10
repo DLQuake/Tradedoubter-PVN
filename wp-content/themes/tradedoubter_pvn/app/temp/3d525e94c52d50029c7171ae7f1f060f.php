@@ -65,6 +65,7 @@ return array (
   ),
   1 => 
   array (
-    'TimberArchives' => 2,
+    'TimberArchives' => 4,
+    'WP_CLI_Command' => 1,
   ),
 );
