@@ -1,78 +1,77 @@
 .m-HeaderPrimary
-  padding: 57px 0
-  width: 100%
-  background-color: $black
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
-  gap: 53px
-  +max($bp-md)
+	padding: 57px 0
+	width: 100%
+	background-color: $black
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	gap: 53px
 
-  &__container
-    display: flex
-    justify-content: space-between
-    flex-wrap: wrap
-    align-items: center
-    width: 83%
-    +max($bp-md)
-      gap: 20px
-    +max($bp-sm)
-      flex-wrap: nowrap
-      gap: 0
+	&__container
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		align-items: center
+		width: 83%
+		+max($bp-md)
+			gap: 20px
+		+max($bp-sm)
+			flex-wrap: nowrap
+			gap: 0
 
-  &__logo
-    // display: block
-    +max($bp-xxs)
-      width: 120px
+	&__logo
+		// display: block
+		+max($bp-xxs)
+			width: 120px
 
-  &__menu
-    display: flex
-    gap: 40px
-    +max($bp-sm)
-      display: none
-    .m-Button
-      width: 180px
-      padding-left: 8px
-      padding-right: 8px
-      +max($bp-sm)
-        display: none
+	&__menu
+		display: flex
+		gap: 40px
+		+max($bp-sm)
+			display: none
+		.m-Button
+			width: 180px
+			padding-left: 8px
+			padding-right: 8px
+			+max($bp-sm)
+				display: none
 
-    &.-mobile
-      display: none
-      +max($bp-sm)
-        display: block
+		&.-mobile
+			display: none
+			+max($bp-sm)
+				display: block
 
-  &__item
-    position: relative
+	&__item
+		position: relative
 
-  &__drop
-    display: none
-    flex-direction: column
-    gap: 14px
-    position: absolute
-    top: 100%
-    left: 0
-    padding-top: 14px
+	&__drop
+		display: none
+		flex-direction: column
+		gap: 14px
+		position: absolute
+		top: 100%
+		left: 0
+		padding-top: 14px
 
-  &__link
-    font-size: 18px
-    padding: 10px 30px
-    color: $white
-    text-decoration: none
-    border: 1px solid $white
-    border-radius: 5px 6px 6px 6px
-    +max($bp-sm)
-      display: none
+	&__link
+		font-size: 18px
+		padding: 10px 30px
+		color: $white
+		text-decoration: none
+		border: 1px solid $white
+		border-radius: 5px 6px 6px 6px
+		+max($bp-sm)
+			display: none
 
-    &:hover
-      background: $blue
-      color: $white
-      transition: all 0.3s ease-in-out
+		&:hover
+			background: $blue
+			color: $white
+			transition: all 0.3s ease-in-out
 
-  &__rectangle
-    width: 85.41666666666667vw
-    height: 1px
-    background: $white
-    opacity: 0.2
-    border-radius: 0px 0px 5px 5px
+	&__rectangle
+		width: 85.41666666666667vw
+		height: 1px
+		background: $white
+		opacity: 0.2
+		border-radius: 0px 0px 5px 5px

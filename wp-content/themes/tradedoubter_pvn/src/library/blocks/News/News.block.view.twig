@@ -1,29 +1,15 @@
 <section class="b-News">
-	<div class="b-News__pages swiper">
-		<div class="b-News__pages-wrapper swiper-wrapper">
-			{% for page in fields.page %}
-				<div class="b-News__pages-page swiper-slide">
-					<div class="b-News__pages-page-container">
-						{% for item in page.item %}
-							<div class="b-News__pages-page-item">
-								<img class="b-News__pages-page-item-image" src="{{item.image}}" alt="News 1">
-								<div class="b-News__pages-page-item-text">
-									<h1 class="b-News__pages-page-item-text-big">{{item.title}}</h1>
-									<p class="b-News__pages-page-item-text-small">{{item.text}}</p>
-									<div class="b-News__pages-page-item-text-more">
-										<p class="b-News__pages-page-item-text-more-date">{{item.date}}</p>
-										<a href="#" class="b-News__pages-page-item-text-more-link">{{item.link}}</a>
-									</div>
-								</div>
-							</div>
-						{% endfor %}
-					</div>
-				</div>
-			{% endfor %}
+	<div class="b-News__pages">
+		<div class="b-News__pages-page">
+			<div class="b-News__pages-page-container">
+				{% for post in posts %}
+					{% include "modules/NewsCard/NewsCard.module.twig" %}
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 	<div class="b-News__buttons">
-		<a class="b-News__buttons-item swiper-button-prev">Previous page</a>
-		<a class="b-News__buttons-item b-News__buttons-item--blue swiper-button-next">Next page</a>
+		<a href="{{posts.pagination.prev.link}}" class="b-News__buttons-item {{posts.pagination.prev.link|length ? '' : 'invisible'}}">Previous page</a>
+		<a href="{{posts.pagination.next.link}}" class="b-News__buttons-item b-News__buttons-item--blue {{posts.pagination.next.link|length ? '' : 'invisible'}}">Next page</a>
 	</div>
 </section>

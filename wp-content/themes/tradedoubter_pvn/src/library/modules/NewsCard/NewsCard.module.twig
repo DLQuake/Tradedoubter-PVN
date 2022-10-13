@@ -1,0 +1,11 @@
+<div class="m-NewsCard">
+	<img class="m-NewsCard-image" src="{{post.thumbnail.src}}" alt="News"/>
+	<div class="m-NewsCard__text">
+		<h1 class="m-NewsCard__text-big">{{post.title}}</h1>
+		<div class="m-NewsCard__text-small">{{post.preview.read_more('').chars(106)}}</div>
+		<div class="m-NewsCard__text-more">
+			<p class="m-NewsCard__text-more-date">{{post.date|date("M d, Y")}}</p>
+			<a href="{{post.link}}" class="m-NewsCard__text-more-link">Read more</a>
+		</div>
+	</div>
+</div>
