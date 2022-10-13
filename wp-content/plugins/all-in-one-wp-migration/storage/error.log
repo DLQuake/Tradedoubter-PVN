@@ -7498,3 +7498,414 @@ Oct 11 2022 14:06:48
 Oct 11 2022 14:06:49
 {"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
 
+Oct 13 2022 08:13:38
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:13:38
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Oct 13 2022 08:13:39
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:41
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Oct 13 2022 08:13:41
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:42
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:43
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:44
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:45
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:46
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:47
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:48
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:49
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:51
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:53
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:56
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:56
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:57
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:58
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:13:59
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:00
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:01
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:02
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:03
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:03
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:04
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:05
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:06
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:07
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:08
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:09
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:10
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:11
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:11
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:12
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:13
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:14
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:15
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:16
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:17
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:19
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:20
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:20
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:21
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:22
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:23
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:24
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:25
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:26
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:27
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:28
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:29
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:30
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:31
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:32
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:33
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:33
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:34
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:35
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:36
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:37
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:39
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:14:39
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:41
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Oct 13 2022 08:14:42
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:43
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:44
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:45
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:46
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:47
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:48
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:49
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:49
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:50
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:51
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:52
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:53
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:54
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:55
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:56
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:57
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:58
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:58
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:14:59
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:00
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:01
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:02
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:03
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:04
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:05
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:06
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:07
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:08
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:09
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:10
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:11
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:11
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:12
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:15
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:17
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:21
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:23
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:34
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:45
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:15:45
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:15:56
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:16:06
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:16:17
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:16:28
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:16:39
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:16:51
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:16:51
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Oct 13 2022 08:17:01
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:17:12
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:17:23
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:17:33
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:17:44
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:17:55
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:17:55
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:06
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:16
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:26
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:28
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\functions.php","Line":272}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Cookie\\Jar.php","Line":63}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Cookie\\Jar.php","Line":73}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Cookie\\Jar.php","Line":89}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Cookie\\Jar.php","Line":102}
+
+Oct 13 2022 08:18:32
+{"Number":8192,"Message":"Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Cookie\\Jar.php","Line":111}
+
+Oct 13 2022 08:18:33
+{"Number":8192,"Message":"Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","Line":40}
+
+Oct 13 2022 08:18:33
+{"Number":8192,"Message":"Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","Line":51}
+
+Oct 13 2022 08:18:33
+{"Number":8192,"Message":"Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","Line":68}
+
+Oct 13 2022 08:18:33
+{"Number":8192,"Message":"Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","Line":82}
+
+Oct 13 2022 08:18:33
+{"Number":8192,"Message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","File":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","Line":91}
+
+Oct 13 2022 08:18:33
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
+Oct 13 2022 08:18:33
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Oct 13 2022 08:18:34
+{"type":8192,"message":"Return type of ActionScheduler_DateTime::getTimestamp() should either be compatible with DateTime::getTimestamp(): int, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\Tradedoubter-PVN\\wp-content\\plugins\\wp-mail-smtp\\vendor\\woocommerce\\action-scheduler\\classes\\ActionScheduler_DateTime.php","line":27}
+
