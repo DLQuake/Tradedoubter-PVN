@@ -65,6 +65,12 @@ return array (
   ),
   1 => 
   array (
-    'TimberArchives' => 2,
+    'TimberArchives' => 18,
+    'WP_CLI_Command' => 24,
+    'Timber\\Integrations\\Timber_WP_CLI_Command' => 12,
+    'WP_Site_Health' => 9,
+    'WooCommerce' => 2,
+    'acf_third_party' => 4,
+    'Tabify_Edit_Screen' => 1,
   ),
 );
