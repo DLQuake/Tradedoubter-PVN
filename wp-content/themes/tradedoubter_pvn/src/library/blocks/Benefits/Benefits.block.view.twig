@@ -1,6 +1,6 @@
 {% if fields.title and fields.slide %}
 	<section class="b-Benefits">
-		<img class="b-Benefits__image" src="{{theme.link}}/static/img/WAVE-black.svg" alt="WAVE-black">
+		<img class="b-Benefits__image" src="{{theme.link}}/static/img/WAVE-black.svg" width="1920" height="295.67" alt="WAVE-black">
 		<div class="b-Benefits__container">
 			<h1 class="b-Benefits__title">{{fields.title}}</h1>
 
@@ -8,7 +8,7 @@
 				<div class="b-Benefits__slider-wrapper swiper-wrapper">
 					{% for item in fields.slide %}
 						<div class="b-Benefits__slider-slide swiper-slide">
-							<img class="b-Benefits__slider-slide-image" src="{{item.image}}" alt="chart">
+							<img class="b-Benefits__slider-slide-image" src="{{item.image}}" width="35" height="35" alt="chart">
 							<p class="b-Benefits__slider-slide-text">{{item.text}}</p>
 						</div>
 					{% endfor %}

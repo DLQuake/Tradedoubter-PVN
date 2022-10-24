@@ -1,6 +1,6 @@
 {% if fields.title and fields.slide %}
 	<section class="b-References" id="Toreferences">
-		<img class="b-References__image" src="{{theme.link}}/static/img/WAVE-gray.svg" alt="WAVE-gray">
+		<img class="b-References__image" src="{{theme.link}}/static/img/WAVE-gray.svg" width="1920" height="295.67" alt="WAVE-gray">
 		<div class="b-References__container">
 			<div class="b-References__title">
 				<h1 class="b-References__title-big">{{fields.title.big}}</h1>
@@ -16,7 +16,7 @@
 									{% if loop.index > 1 %}
 										<div class="b-References__slider-slide-item b-References__slider-slide-item--nodisplay">
 											<div class="b-References__slider-slide-item-image">
-												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" alt="logo of Empik">
+												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" width="158" height="120" alt="logo of Empik">
 												<img class="b-References__slider-slide-item-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
 											</div>
 											<p class="b-References__slider-slide-item-text">{{item.text}}</p>
@@ -24,7 +24,7 @@
 									{% else %}
 										<div class="b-References__slider-slide-item">
 											<div class="b-References__slider-slide-item-image">
-												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" alt="logo of Empik">
+												<img class="b-References__slider-slide-item-image-one" src="{{item.image}}" width="158" height="120" alt="logo of Empik">
 												<img class="b-References__slider-slide-item-image-two" src="{{theme.link}}/static/img/cudzyslow.svg" alt="cudzyslow">
 											</div>
 											<p class="b-References__slider-slide-item-text">{{item.text}}</p>

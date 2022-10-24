@@ -2,7 +2,7 @@
 	<nav class="m-FooterPrimary__navigation">
 		<div class="m-FooterPrimary__navigation-container">
 			<a class="m-FooterPrimary__navigation-logo" href="/Tradedoubter-PVN">
-				<img src="{{theme.link}}/static/img/logo-white-blue.svg" alt="Tradedoubter PVN" class="m-FooterPrimary__navigation-logo"/>
+				<img src="{{theme.link}}/static/img/logo-white-blue.svg" alt="Tradedoubter PVN" width="211" height="47" class="m-FooterPrimary__navigation-logo"/>
 			</a>
 			<ul class="m-FooterPrimary__navigation-menu -desktop">
 				{% for item in nav.footer.items %}
@@ -30,7 +30,7 @@
 			{% for item in socialmedia %}
 				<li class="m-FooterPrimary__data-socials-item">
 					<a href="{{item.social_media_adress.url}}" class="m-FooterPrimary__data-socials-item">
-						<img src="{{item.social_media_icon}}" alt="{{item.social_media_adress.title}}" class="m-FooterPrimary__data-socials-item-image">
+						<img src="{{item.social_media_icon}}" width="30" height="30" alt="{{item.social_media_adress.title}}" class="m-FooterPrimary__data-socials-item-image">
 					</a>
 				</li>
 			{% endfor %}
