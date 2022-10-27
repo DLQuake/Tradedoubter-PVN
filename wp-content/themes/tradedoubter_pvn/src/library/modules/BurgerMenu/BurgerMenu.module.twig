@@ -1,11 +1,11 @@
 <div class="m-BurgerMenu">
-	<img src="{{theme.link}}/static/img/burger-menu-open.svg" alt="Open menu" class="m-BurgerMenu__open">
+	<img src="{{theme.link}}/static/img/burger-menu-open.svg" width="43" height="47" alt="Open menu" class="m-BurgerMenu__open">
 	<div class="m-BurgerMenu__slide">
 		<div class="m-BurgerMenu__top">
 			<a href="/Tradedoubter-PVN">
-				<img src="{{theme.link}}/static/img/logo-white-blue.svg" alt="Tradedoubter PVN" class="m-HeaderPrimary__logo"/>
+				<img src="{{theme.link}}/static/img/logo-white-blue.svg" width="120" height="33" alt="Tradedoubter PVN" class="m-HeaderPrimary__logo"/>
 			</a>
-			<img src="{{theme.link}}/static/img/burger-menu-close.svg" alt="Open menu" class="m-BurgerMenu__close">
+			<img src="{{theme.link}}/static/img/burger-menu-close.svg" width="33" height="33" alt="Close menu" class="m-BurgerMenu__close">
 		</div>
 		<div class="m-BurgerMenu__container">
 			<ul class="m-BurgerMenu__menu">
@@ -18,7 +18,7 @@
 			<div class="m-BurgerMenu__socials">
 				{% for item in socialmedia %}
 					<a href="{{item.social_media_adress.url}}" title="{{item.social_media_adress.title}}" class="m-BurgerMenu__socialItem">
-						<img src="{{item.social_media_icon}}" alt="{{item.social_media_adress.title}}">
+						<img src="{{item.social_media_icon}}" width="40" height="40" alt="{{item.social_media_adress.title}}">
 					</a>
 				{% endfor %}
 			</div>
