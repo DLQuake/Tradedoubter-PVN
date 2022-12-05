@@ -83,3 +83,8 @@
 </IfModule>
 
 # END WebP Express
+# BEGIN Register webp mime type
+<IfModule mod_mime.c>
+	AddType image/webp .webp
+</IfModule>
+# END Register webp mime type

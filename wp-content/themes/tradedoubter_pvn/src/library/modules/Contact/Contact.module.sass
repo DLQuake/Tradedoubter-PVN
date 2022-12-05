@@ -1,0 +1,158 @@
+.b-Contact
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    gap: 80px
+    padding: 80px 0
+
+    &__title
+        color: $black
+        text-align: center
+
+
+        &-big
+            font-weight: 700
+            font-size: 60px
+            line-height: 82px
+            +max(540px)
+                +fslh(30, 41)
+
+        &-small
+            font-weight: 400
+            font-size: 20px
+            line-height: 35px
+            &--bold
+                font-weight: 700
+            
+            +max(540px)
+                +fslh(18, 30)
+
+
+    &__form
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        width: 1170px
+        gap: 50px
+        flex-wrap: wrap
+        +max($bp-xlg)
+            width: 100%
+            flex-direction: column
+
+        &-item
+            width: 560px
+            background: $white
+            border: none
+            color: $black
+            font-weight: 400
+            font-size: 16px
+            line-height: 19px
+            display: flex
+            padding: 20px
+            border-bottom: 1.5px solid #E6E8E9
+            font-family: inherit
+            +max($bp-xlg)
+                width: 80vw
+
+            &:hover
+                font-weight: 600
+                border-bottom: 2px solid $blue
+                cursor: pointer
+                transition: all 0.3s ease-in-out
+
+            &:focus
+                font-weight: 600
+                border-bottom: 2px solid $blue
+                cursor: pointer
+                outline: none
+
+
+            &::placeholder
+                color: $black
+
+            &--textarea
+                width: 1220px
+                height: 186.34px
+                color: $black
+                resize: none
+                +max($bp-xlg)
+                    width: 80vw
+
+            &-select
+                width: 560px
+                padding: 20px
+                background: $white
+                border: none
+                border-bottom: 1.5px solid #E6E8E9
+                color: $black
+                font-weight: 400
+                font-size: 16px
+                line-height: 19px
+                display: flex
+
+                appearance: none
+                -moz-appearance: none
+                -webkit-appearance: none
+                background: url(../img/arrow.png) 97% center no-repeat !important
+                +max($bp-xlg)
+                    width: 80vw
+
+                &:hover
+                    border-bottom: 2px solid $blue
+                    cursor: pointer
+                    transition: all 0.3s ease-in-out
+
+                &:focus
+                    font-weight: 600
+                    border-bottom: 2px solid $blue
+                    cursor: pointer
+                    outline: none
+
+
+                &--option
+                    color: $black
+                    height: 400px
+
+            &-politics
+                width: 674px
+                font-weight: 400
+                font-size: 16px
+                line-height: 25px
+                color: #909495
+                +max($bp-xlg)
+                    width: 90vw
+                    text-align: center
+
+                &--link
+                    color: $blue
+
+                    &:hover
+                        color: $black
+                        transition: all 0.3s ease-in-out
+
+            &--submit
+                width: auto
+                height: 40px
+                padding: 11px 50px
+                font-weight: 600
+                font-size: 14px
+                line-height: 19px
+                display: flex
+                align-items: center
+                cursor: pointer
+                color: $white
+                background: $blue
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16)
+                border-radius: 6px
+                margin-left: 247px
+                +max($bp-xlg)
+                    width: 200px
+                    text-align: center
+                    margin: 0
+
+                &:hover
+                    background: $black
+                    transition: all 0.3s ease-in-out

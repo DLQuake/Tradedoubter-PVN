@@ -22,7 +22,10 @@
 								<div class="b-Features__feature-container b-Features__feature-container--reverse">
 									<div class="b-Features__feature-container-list">
 										{% for list in item.list %}
-											<div class="b-Features__feature-container-list-item">{{list.text}}</div>
+											<div class="b-Features__feature-container-list-item">
+												<img class="b-Features__feature-container-list-item-image" src="{{theme.link}}/static/img/check-gray.svg" width="31" height="31" alt="Check">
+												{{list.text}}
+											</div>
 										{% endfor %}
 									</div>
 									<img class="b-Features__feature-container-image" src="{{item.image}}" width="800" height="483" alt="Feature_Manage">
@@ -36,7 +39,10 @@
 								<div class="b-Features__feature-container">
 									<div class="b-Features__feature-container-list">
 										{% for list in item.list %}
-											<div class="b-Features__feature-container-list-item">{{list.text}}</div>
+											<div class="b-Features__feature-container-list-item">
+												<img class="b-Features__feature-container-list-item-image" src="{{theme.link}}/static/img/check-gray.svg" width="31" height="31" alt="Check">
+												{{list.text}}
+											</div>
 										{% endfor %}
 									</div>
 									<img class="b-Features__feature-container-image" src="{{item.image}}" width="800" height="483" alt="Feature_Manage">

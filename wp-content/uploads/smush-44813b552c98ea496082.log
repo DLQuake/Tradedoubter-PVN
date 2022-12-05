@@ -1,0 +1,364 @@
+[2022-11-03 12:56:25 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-11-03 12:56:25 : INFO] - 
+ 
+[2022-11-03 12:56:25 : INFO] - Header for logs at time:  Thu, 03 Nov 2022 12:56:25 +0000 on http://wp-dominik.bumerang.vot.pl 
+[2022-11-03 12:56:25 : INFO] - WP: 6.1 
+[2022-11-03 12:56:25 : INFO] - PHP: 7.4.32 (litespeed, Linux s147.cyber-folks.pl 4.18.0-372.9.1.1.lve.el8.x86_64 #1 SMP Tue May 24 07:49:22 EDT 2022 x86_64) 
+[2022-11-03 12:56:25 : INFO] - MySQL: 5.5.5 
+[2022-11-03 12:56:25 : INFO] - WPLANG: en_US 
+[2022-11-03 12:56:25 : INFO] - Server: LiteSpeed 
+[2022-11-03 12:56:25 : INFO] - Outbound connections: N 
+[2022-11-03 12:56:25 : INFO] - safe_mode: 0 
+[2022-11-03 12:56:25 : INFO] - max_execution_time: 300 
+[2022-11-03 12:56:25 : INFO] - memory_limit: 256M (used: 6.4M | 2M) 
+[2022-11-03 12:56:25 : INFO] - multisite: N 
+[2022-11-03 12:56:25 : INFO] - openssl: OpenSSL 1.1.1p  21 Jun 2022 
+[2022-11-03 12:56:26 : INFO] - A total of 35 tasks of type smush found and will be processed in this iteration 
+[2022-11-03 12:56:26 : DEBUG] - Lock option (updraft_lock_smush, sg78s_options) was created in the database 
+[2022-11-03 12:56:26 : INFO] - Lock (updraft_lock_smush, sg78s_options) acquired after initialising the database 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Task with ID 36 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/instagram.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Task with ID 37 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/twitter.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Task with ID 38 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/linkedin-in.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Task with ID 39 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/facebook-f.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Re_Smush_It_Task - Attachment ID : 409, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:26 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:26 : INFO] - 75 
+[2022-11-03 12:56:26 : INFO] - Backing up the original image - 2022/09/facebook-updraft-pre-smush-original.png 
+[2022-11-03 12:56:26 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/facebook.png.The file was compressed from 2.12 KB to 1.53 KB saving 27.95 percent using WP-Optimize 
+[2022-11-03 12:56:26 : INFO] - Completed processing task with ID : 40, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Re_Smush_It_Task - Attachment ID : 410, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:26 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:26 : INFO] - 75 
+[2022-11-03 12:56:26 : INFO] - Backing up the original image - 2022/09/linkedin-updraft-pre-smush-original.png 
+[2022-11-03 12:56:26 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/linkedin.png.The file was compressed from 3.66 KB to 2.33 KB saving 36.24 percent using WP-Optimize 
+[2022-11-03 12:56:26 : INFO] - Completed processing task with ID : 41, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2022-11-03 12:56:26 : INFO] - Re_Smush_It_Task - Attachment ID : 412, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:26 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:26 : INFO] - 75 
+[2022-11-03 12:56:27 : INFO] - Backing up the original image - 2022/09/twitter-1-updraft-pre-smush-original.png 
+[2022-11-03 12:56:27 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/twitter-1.png.The file was compressed from 5.92 KB to 3.34 KB saving 43.56 percent using WP-Optimize 
+[2022-11-03 12:56:27 : INFO] - Completed processing task with ID : 42, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Re_Smush_It_Task - Attachment ID : 413, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:27 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:27 : INFO] - 75 
+[2022-11-03 12:56:27 : INFO] - Backing up the original image - 2022/09/instagram-1-updraft-pre-smush-original.png 
+[2022-11-03 12:56:27 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/instagram-1.png.The file was compressed from 7.37 KB to 4.58 KB saving 37.8 percent using WP-Optimize 
+[2022-11-03 12:56:27 : INFO] - Completed processing task with ID : 43, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Re_Smush_It_Task - Attachment ID : 583, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:27 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:27 : INFO] - 75 
+[2022-11-03 12:56:27 : INFO] - Backing up the original image - 2022/09/Features_Manage-Payments-updraft-pre-smush-original.png 
+[2022-11-03 12:56:27 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Features_Manage-Payments.png.The file was compressed from 55.54 KB to 21.40 KB saving 61.47 percent using WP-Optimize 
+[2022-11-03 12:56:27 : INFO] - Completed processing task with ID : 44, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2022-11-03 12:56:27 : INFO] - Re_Smush_It_Task - Attachment ID : 584, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:27 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:27 : INFO] - 75 
+[2022-11-03 12:56:28 : INFO] - Backing up the original image - 2022/09/Feature_Branded-Platform-updraft-pre-smush-original.png 
+[2022-11-03 12:56:28 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Branded-Platform.png.The file was compressed from 72.47 KB to 24.12 KB saving 66.71 percent using WP-Optimize 
+[2022-11-03 12:56:28 : INFO] - Completed processing task with ID : 45, and type 'smush' 
+[2022-11-03 12:56:28 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2022-11-03 12:56:28 : INFO] - Re_Smush_It_Task - Attachment ID : 585, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:28 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:28 : INFO] - 75 
+[2022-11-03 12:56:29 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Advertisers-updraft-pre-smush-original.png 
+[2022-11-03 12:56:29 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Advertisers.png.The file was compressed from 93.50 KB to 30.21 KB saving 67.69 percent using WP-Optimize 
+[2022-11-03 12:56:29 : INFO] - Completed processing task with ID : 46, and type 'smush' 
+[2022-11-03 12:56:29 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2022-11-03 12:56:29 : INFO] - Re_Smush_It_Task - Attachment ID : 586, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:29 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:29 : INFO] - 75 
+[2022-11-03 12:56:29 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Payments-updraft-pre-smush-original.png 
+[2022-11-03 12:56:29 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Payments.png.The file was compressed from 50.46 KB to 17.22 KB saving 65.87 percent using WP-Optimize 
+[2022-11-03 12:56:29 : INFO] - Completed processing task with ID : 47, and type 'smush' 
+[2022-11-03 12:56:29 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2022-11-03 12:56:29 : INFO] - Re_Smush_It_Task - Attachment ID : 587, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:29 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:29 : INFO] - 75 
+[2022-11-03 12:56:30 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Publishers-updraft-pre-smush-original.png 
+[2022-11-03 12:56:30 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Publishers.png.The file was compressed from 77.05 KB to 25.62 KB saving 66.75 percent using WP-Optimize 
+[2022-11-03 12:56:30 : INFO] - Completed processing task with ID : 48, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 49, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Re_Smush_It_Task - Attachment ID : 588, Started on : November 03, 2022 12:56:25 
+[2022-11-03 12:56:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:30 : INFO] - 75 
+[2022-11-03 12:56:30 : INFO] - Backing up the original image - 2022/09/Feature_Reporting-updraft-pre-smush-original.png 
+[2022-11-03 12:56:30 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Reporting.png.The file was compressed from 66.31 KB to 22.70 KB saving 65.77 percent using WP-Optimize 
+[2022-11-03 12:56:30 : INFO] - Completed processing task with ID : 49, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 50 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/publishers.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 51, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 51 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/advertiser.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 52, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 52 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/agencies.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 53 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/about-us2.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 54 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/about-us1.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 55, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 55 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/chart.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 56, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 56 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/noads.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 57, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 57 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/computer.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 58, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 58 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/clock.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 59, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Re_Smush_It_Task - Attachment ID : 728, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:30 : INFO] - 75 
+[2022-11-03 12:56:30 : INFO] - Backing up the original image - 2022/09/logo-updraft-pre-smush-original.png 
+[2022-11-03 12:56:30 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/logo.png.The file was compressed from 3.96 KB to 2.06 KB saving 48.05 percent using WP-Optimize 
+[2022-11-03 12:56:30 : INFO] - Completed processing task with ID : 59, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 60, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 60 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/check.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 61, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 61 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Logo_Publicis-Media.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 62, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Task with ID 62 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Empik.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:30 : INFO] - Processing task with ID : 63, and type 'smush' 
+[2022-11-03 12:56:30 : INFO] - Re_Smush_It_Task - Attachment ID : 878, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:30 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:30 : INFO] - 75 
+[2022-11-03 12:56:31 : INFO] - Backing up the original image - 2022/09/Dashboard1-2-updraft-pre-smush-original.png 
+[2022-11-03 12:56:31 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Dashboard1-2.png.The file was compressed from 193.45 KB to 67.42 KB saving 65.15 percent using WP-Optimize 
+[2022-11-03 12:56:31 : INFO] - Completed processing task with ID : 63, and type 'smush' 
+[2022-11-03 12:56:31 : INFO] - Processing task with ID : 64, and type 'smush' 
+[2022-11-03 12:56:31 : INFO] - Task with ID 64 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/laptop.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 12:56:31 : INFO] - Processing task with ID : 65, and type 'smush' 
+[2022-11-03 12:56:31 : INFO] - Re_Smush_It_Task - Attachment ID : 1047, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:31 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:31 : INFO] - 75 
+[2022-11-03 12:56:32 : INFO] - Backing up the original image - 2022/10/news1-updraft-pre-smush-original.png 
+[2022-11-03 12:56:32 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news1.png.The file was compressed from 225.58 KB to 81.24 KB saving 63.99 percent using WP-Optimize 
+[2022-11-03 12:56:32 : INFO] - Completed processing task with ID : 65, and type 'smush' 
+[2022-11-03 12:56:32 : INFO] - Processing task with ID : 66, and type 'smush' 
+[2022-11-03 12:56:32 : INFO] - Re_Smush_It_Task - Attachment ID : 1048, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:32 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:32 : INFO] - 75 
+[2022-11-03 12:56:33 : INFO] - Backing up the original image - 2022/10/news2-updraft-pre-smush-original.png 
+[2022-11-03 12:56:33 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news2.png.The file was compressed from 211.72 KB to 70.26 KB saving 66.81 percent using WP-Optimize 
+[2022-11-03 12:56:33 : INFO] - Completed processing task with ID : 66, and type 'smush' 
+[2022-11-03 12:56:33 : INFO] - Processing task with ID : 67, and type 'smush' 
+[2022-11-03 12:56:33 : INFO] - Re_Smush_It_Task - Attachment ID : 1049, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:33 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:33 : INFO] - 75 
+[2022-11-03 12:56:34 : INFO] - Backing up the original image - 2022/10/news3-updraft-pre-smush-original.png 
+[2022-11-03 12:56:34 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news3.png.The file was compressed from 267.38 KB to 77.08 KB saving 71.17 percent using WP-Optimize 
+[2022-11-03 12:56:34 : INFO] - Completed processing task with ID : 67, and type 'smush' 
+[2022-11-03 12:56:34 : INFO] - Processing task with ID : 68, and type 'smush' 
+[2022-11-03 12:56:34 : INFO] - Re_Smush_It_Task - Attachment ID : 1050, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:34 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:34 : INFO] - 75 
+[2022-11-03 12:56:35 : INFO] - Backing up the original image - 2022/10/news4-updraft-pre-smush-original.png 
+[2022-11-03 12:56:35 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news4.png.The file was compressed from 263.37 KB to 88.26 KB saving 66.49 percent using WP-Optimize 
+[2022-11-03 12:56:35 : INFO] - Completed processing task with ID : 68, and type 'smush' 
+[2022-11-03 12:56:35 : INFO] - Processing task with ID : 69, and type 'smush' 
+[2022-11-03 12:56:35 : INFO] - Re_Smush_It_Task - Attachment ID : 1051, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:35 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:35 : INFO] - 75 
+[2022-11-03 12:56:36 : INFO] - Backing up the original image - 2022/10/news5-updraft-pre-smush-original.png 
+[2022-11-03 12:56:36 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news5.png.The file was compressed from 292.34 KB to 93.27 KB saving 68.09 percent using WP-Optimize 
+[2022-11-03 12:56:36 : INFO] - Completed processing task with ID : 69, and type 'smush' 
+[2022-11-03 12:56:36 : INFO] - Processing task with ID : 70, and type 'smush' 
+[2022-11-03 12:56:36 : INFO] - Re_Smush_It_Task - Attachment ID : 1052, Started on : November 03, 2022 12:56:26 
+[2022-11-03 12:56:36 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 12:56:36 : INFO] - 75 
+[2022-11-03 12:56:36 : INFO] - Backing up the original image - 2022/10/news6-updraft-pre-smush-original.png 
+[2022-11-03 12:56:36 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news6.png.The file was compressed from 138.20 KB to 50.74 KB saving 63.29 percent using WP-Optimize 
+[2022-11-03 12:56:36 : INFO] - Completed processing task with ID : 70, and type 'smush' 
+[2022-11-03 12:56:36 : INFO] - Lock option (updraft_lock_smush, sg78s_options) released 
+[2022-11-03 12:56:36 : INFO] - Successfully processed the queue (smush). 35 tasks were processed out of 35. 
+[2022-11-03 12:56:36 : INFO] - Lock option (updraft_lock_smush, sg78s_options) was deleted from the database 
+[2022-11-03 12:56:36 : INFO] - Cleaning up tasks of type (smush). A total of 35 tasks will be deleted. 
+[2022-11-03 13:30:59 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-11-03 13:30:59 : INFO] - 
+ 
+[2022-11-03 13:30:59 : INFO] - Header for logs at time:  Thu, 03 Nov 2022 13:30:59 +0000 on http://wp-dominik.bumerang.vot.pl 
+[2022-11-03 13:30:59 : INFO] - WP: 6.1 
+[2022-11-03 13:30:59 : INFO] - PHP: 7.4.32 (litespeed, Linux s147.cyber-folks.pl 4.18.0-372.9.1.1.lve.el8.x86_64 #1 SMP Tue May 24 07:49:22 EDT 2022 x86_64) 
+[2022-11-03 13:30:59 : INFO] - MySQL: 5.5.5 
+[2022-11-03 13:30:59 : INFO] - WPLANG: en_US 
+[2022-11-03 13:30:59 : INFO] - Server: LiteSpeed 
+[2022-11-03 13:30:59 : INFO] - Outbound connections: N 
+[2022-11-03 13:30:59 : INFO] - safe_mode: 0 
+[2022-11-03 13:30:59 : INFO] - max_execution_time: 300 
+[2022-11-03 13:30:59 : INFO] - memory_limit: 256M (used: 6.3M | 2M) 
+[2022-11-03 13:30:59 : INFO] - multisite: N 
+[2022-11-03 13:30:59 : INFO] - openssl: OpenSSL 1.1.1p  21 Jun 2022 
+[2022-11-03 13:30:59 : INFO] - A total of 35 tasks of type smush found and will be processed in this iteration 
+[2022-11-03 13:30:59 : DEBUG] - Lock option (updraft_lock_smush, sg78s_options) was created in the database 
+[2022-11-03 13:30:59 : INFO] - Lock (updraft_lock_smush, sg78s_options) acquired after initialising the database 
+[2022-11-03 13:30:59 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2022-11-03 13:30:59 : INFO] - Task with ID 36 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/instagram.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:30:59 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2022-11-03 13:30:59 : INFO] - Task with ID 37 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/twitter.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:30:59 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2022-11-03 13:30:59 : INFO] - Task with ID 38 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/linkedin-in.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:30:59 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2022-11-03 13:30:59 : INFO] - Task with ID 39 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/facebook-f.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:30:59 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2022-11-03 13:30:59 : INFO] - Re_Smush_It_Task - Attachment ID : 409, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:30:59 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:30:59 : INFO] - 75 
+[2022-11-03 13:31:00 : INFO] - Backing up the original image - 2022/09/facebook-updraft-pre-smush-original.png 
+[2022-11-03 13:31:00 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/facebook.png.The file was compressed from 2.12 KB to 1.53 KB saving 27.95 percent using WP-Optimize 
+[2022-11-03 13:31:00 : INFO] - Completed processing task with ID : 40, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Re_Smush_It_Task - Attachment ID : 410, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:00 : INFO] - 75 
+[2022-11-03 13:31:00 : INFO] - Backing up the original image - 2022/09/linkedin-updraft-pre-smush-original.png 
+[2022-11-03 13:31:00 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/linkedin.png.The file was compressed from 3.66 KB to 2.33 KB saving 36.24 percent using WP-Optimize 
+[2022-11-03 13:31:00 : INFO] - Completed processing task with ID : 41, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Re_Smush_It_Task - Attachment ID : 412, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:00 : INFO] - 75 
+[2022-11-03 13:31:00 : INFO] - Backing up the original image - 2022/09/twitter-1-updraft-pre-smush-original.png 
+[2022-11-03 13:31:00 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/twitter-1.png.The file was compressed from 5.92 KB to 3.34 KB saving 43.56 percent using WP-Optimize 
+[2022-11-03 13:31:00 : INFO] - Completed processing task with ID : 42, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Re_Smush_It_Task - Attachment ID : 413, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:00 : INFO] - 75 
+[2022-11-03 13:31:00 : INFO] - Backing up the original image - 2022/09/instagram-1-updraft-pre-smush-original.png 
+[2022-11-03 13:31:00 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/instagram-1.png.The file was compressed from 7.37 KB to 4.58 KB saving 37.8 percent using WP-Optimize 
+[2022-11-03 13:31:00 : INFO] - Completed processing task with ID : 43, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2022-11-03 13:31:00 : INFO] - Re_Smush_It_Task - Attachment ID : 583, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:00 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:00 : INFO] - 75 
+[2022-11-03 13:31:01 : INFO] - Backing up the original image - 2022/09/Features_Manage-Payments-updraft-pre-smush-original.png 
+[2022-11-03 13:31:01 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Features_Manage-Payments.png.The file was compressed from 55.54 KB to 21.40 KB saving 61.47 percent using WP-Optimize 
+[2022-11-03 13:31:01 : INFO] - Completed processing task with ID : 44, and type 'smush' 
+[2022-11-03 13:31:01 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2022-11-03 13:31:01 : INFO] - Re_Smush_It_Task - Attachment ID : 584, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:01 : INFO] - 75 
+[2022-11-03 13:31:01 : INFO] - Backing up the original image - 2022/09/Feature_Branded-Platform-updraft-pre-smush-original.png 
+[2022-11-03 13:31:01 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Branded-Platform.png.The file was compressed from 72.47 KB to 24.12 KB saving 66.71 percent using WP-Optimize 
+[2022-11-03 13:31:01 : INFO] - Completed processing task with ID : 45, and type 'smush' 
+[2022-11-03 13:31:01 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2022-11-03 13:31:01 : INFO] - Re_Smush_It_Task - Attachment ID : 585, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:01 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:01 : INFO] - 75 
+[2022-11-03 13:31:02 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Advertisers-updraft-pre-smush-original.png 
+[2022-11-03 13:31:02 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Advertisers.png.The file was compressed from 93.50 KB to 30.77 KB saving 67.09 percent using WP-Optimize 
+[2022-11-03 13:31:02 : INFO] - Completed processing task with ID : 46, and type 'smush' 
+[2022-11-03 13:31:02 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2022-11-03 13:31:02 : INFO] - Re_Smush_It_Task - Attachment ID : 586, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:02 : INFO] - 75 
+[2022-11-03 13:31:02 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Payments-updraft-pre-smush-original.png 
+[2022-11-03 13:31:02 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Payments.png.The file was compressed from 50.46 KB to 17.22 KB saving 65.87 percent using WP-Optimize 
+[2022-11-03 13:31:02 : INFO] - Completed processing task with ID : 47, and type 'smush' 
+[2022-11-03 13:31:02 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2022-11-03 13:31:02 : INFO] - Re_Smush_It_Task - Attachment ID : 587, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:02 : INFO] - 75 
+[2022-11-03 13:31:03 : INFO] - Backing up the original image - 2022/09/Feature_Manage-Publishers-updraft-pre-smush-original.png 
+[2022-11-03 13:31:03 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Manage-Publishers.png.The file was compressed from 77.05 KB to 25.14 KB saving 67.37 percent using WP-Optimize 
+[2022-11-03 13:31:03 : INFO] - Completed processing task with ID : 48, and type 'smush' 
+[2022-11-03 13:31:03 : INFO] - Processing task with ID : 49, and type 'smush' 
+[2022-11-03 13:31:03 : INFO] - Re_Smush_It_Task - Attachment ID : 588, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:03 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:03 : INFO] - 75 
+[2022-11-03 13:31:04 : INFO] - Backing up the original image - 2022/09/Feature_Reporting-updraft-pre-smush-original.png 
+[2022-11-03 13:31:04 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Feature_Reporting.png.The file was compressed from 66.31 KB to 22.70 KB saving 65.77 percent using WP-Optimize 
+[2022-11-03 13:31:04 : INFO] - Completed processing task with ID : 49, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 50 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/publishers.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 51, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 51 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/advertiser.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 52, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 52 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/agencies.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 53 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/about-us2.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 54 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/about-us1.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 55, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 55 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/chart.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 56, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 56 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/noads.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 57, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 57 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/computer.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 58, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 58 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/clock.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 59, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Re_Smush_It_Task - Attachment ID : 728, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:04 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:04 : INFO] - 75 
+[2022-11-03 13:31:04 : INFO] - Backing up the original image - 2022/09/logo-updraft-pre-smush-original.png 
+[2022-11-03 13:31:04 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/logo.png.The file was compressed from 3.96 KB to 2.06 KB saving 48.05 percent using WP-Optimize 
+[2022-11-03 13:31:04 : INFO] - Completed processing task with ID : 59, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 60, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 60 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/check.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 61, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 61 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Logo_Publicis-Media.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 62, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Task with ID 62 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Empik.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:04 : INFO] - Processing task with ID : 63, and type 'smush' 
+[2022-11-03 13:31:04 : INFO] - Re_Smush_It_Task - Attachment ID : 878, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:04 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:04 : INFO] - 75 
+[2022-11-03 13:31:05 : INFO] - Backing up the original image - 2022/09/Dashboard1-2-updraft-pre-smush-original.png 
+[2022-11-03 13:31:05 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/Dashboard1-2.png.The file was compressed from 193.45 KB to 67.42 KB saving 65.15 percent using WP-Optimize 
+[2022-11-03 13:31:05 : INFO] - Completed processing task with ID : 63, and type 'smush' 
+[2022-11-03 13:31:05 : INFO] - Processing task with ID : 64, and type 'smush' 
+[2022-11-03 13:31:05 : INFO] - Task with ID 64 and type (smush) failed with error code invalid_file_type - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/09/laptop.svg - cannot be optimized, it has an invalid file type 
+[2022-11-03 13:31:05 : INFO] - Processing task with ID : 65, and type 'smush' 
+[2022-11-03 13:31:05 : INFO] - Re_Smush_It_Task - Attachment ID : 1047, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:05 : INFO] - 75 
+[2022-11-03 13:31:06 : INFO] - Backing up the original image - 2022/10/news1-updraft-pre-smush-original.png 
+[2022-11-03 13:31:06 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news1.png.The file was compressed from 225.58 KB to 81.24 KB saving 63.99 percent using WP-Optimize 
+[2022-11-03 13:31:06 : INFO] - Completed processing task with ID : 65, and type 'smush' 
+[2022-11-03 13:31:06 : INFO] - Processing task with ID : 66, and type 'smush' 
+[2022-11-03 13:31:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1048, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:06 : INFO] - 75 
+[2022-11-03 13:31:06 : INFO] - Backing up the original image - 2022/10/news2-updraft-pre-smush-original.png 
+[2022-11-03 13:31:06 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news2.png.The file was compressed from 211.72 KB to 70.26 KB saving 66.81 percent using WP-Optimize 
+[2022-11-03 13:31:06 : INFO] - Completed processing task with ID : 66, and type 'smush' 
+[2022-11-03 13:31:06 : INFO] - Processing task with ID : 67, and type 'smush' 
+[2022-11-03 13:31:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1049, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:06 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:06 : INFO] - 75 
+[2022-11-03 13:31:07 : INFO] - Backing up the original image - 2022/10/news3-updraft-pre-smush-original.png 
+[2022-11-03 13:31:07 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news3.png.The file was compressed from 267.38 KB to 77.08 KB saving 71.17 percent using WP-Optimize 
+[2022-11-03 13:31:07 : INFO] - Completed processing task with ID : 67, and type 'smush' 
+[2022-11-03 13:31:07 : INFO] - Processing task with ID : 68, and type 'smush' 
+[2022-11-03 13:31:07 : INFO] - Re_Smush_It_Task - Attachment ID : 1050, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:07 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:07 : INFO] - 75 
+[2022-11-03 13:31:08 : INFO] - Backing up the original image - 2022/10/news4-updraft-pre-smush-original.png 
+[2022-11-03 13:31:08 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news4.png.The file was compressed from 263.37 KB to 88.26 KB saving 66.49 percent using WP-Optimize 
+[2022-11-03 13:31:08 : INFO] - Completed processing task with ID : 68, and type 'smush' 
+[2022-11-03 13:31:08 : INFO] - Processing task with ID : 69, and type 'smush' 
+[2022-11-03 13:31:08 : INFO] - Re_Smush_It_Task - Attachment ID : 1051, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:08 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:08 : INFO] - 75 
+[2022-11-03 13:31:09 : INFO] - Backing up the original image - 2022/10/news5-updraft-pre-smush-original.png 
+[2022-11-03 13:31:09 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news5.png.The file was compressed from 292.34 KB to 93.27 KB saving 68.09 percent using WP-Optimize 
+[2022-11-03 13:31:09 : INFO] - Completed processing task with ID : 69, and type 'smush' 
+[2022-11-03 13:31:09 : INFO] - Processing task with ID : 70, and type 'smush' 
+[2022-11-03 13:31:09 : INFO] - Re_Smush_It_Task - Attachment ID : 1052, Started on : November 03, 2022 01:30:59 
+[2022-11-03 13:31:09 : INFO] - There were no WebP conversion tools found on your server. 
+[2022-11-03 13:31:09 : INFO] - 75 
+[2022-11-03 13:31:10 : INFO] - Backing up the original image - 2022/10/news6-updraft-pre-smush-original.png 
+[2022-11-03 13:31:10 : INFO] - Successfully optimized the image - /home/zhornik/domains/bumerang.vot.pl/public_html/wp-dominik/wp-content/uploads/2022/10/news6.png.The file was compressed from 138.20 KB to 50.74 KB saving 63.29 percent using WP-Optimize 
+[2022-11-03 13:31:10 : INFO] - Completed processing task with ID : 70, and type 'smush' 
+[2022-11-03 13:31:10 : INFO] - Lock option (updraft_lock_smush, sg78s_options) released 
+[2022-11-03 13:31:10 : INFO] - Successfully processed the queue (smush). 35 tasks were processed out of 35. 
+[2022-11-03 13:31:10 : INFO] - Lock option (updraft_lock_smush, sg78s_options) was deleted from the database 
+[2022-11-03 13:31:10 : INFO] - Cleaning up tasks of type (smush). A total of 35 tasks will be deleted. 

@@ -27,7 +27,6 @@ $config = [];
 require_once(__DIR__ . "/config/config.php");
 require_once(__DIR__ . "/app/app.php");
 require_once("post-types/SF_post.php");
-require_once("post-types/SF_products.php");
 
 
 ini_set('upload_max_size', '64M');
@@ -90,3 +89,4 @@ function wpex_add_menu_home_link( $items, $args ) {
 
 }
 add_filter( 'wp_nav_menu_items', 'wpex_add_menu_home_link', 10, 2 );
+add_filter( 'wp_lazy_loading_enabled', '__return_false' );
