@@ -27,6 +27,8 @@ $config = [];
 require_once(__DIR__ . "/config/config.php");
 require_once(__DIR__ . "/app/app.php");
 require_once("post-types/SF_post.php");
+// require_once("post-types/SF_products.php");
+require_once("post-types/SF_markers.php");
 
 
 ini_set('upload_max_size', '64M');

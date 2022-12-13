@@ -1,19 +1,203 @@
-<section class="b-Maps">
-	<div id="map" class="b-Maps__map"></div>
-</section>
+<div class="b-Maps" style="display: flex; flex-direction: row; padding: 2rem; justify-content: space-between;">
+	<div class="b-Maps__filters-filter" style="display: flex; flex-direction: column; gap: 10px; width: 20%; ">
+		<h3 class="b-Maps__filters-filter-text" style="font-size: 20px">Filter those markers:</h3>
+		<div class="b-Maps__filters-filter-select">
+			<select class="b-Maps__filters-filter-select-options" style="width: 80%; height: 40px;"  id="type" onchange="filterMarkers(this.value);">
+				<option class="b-Maps__filters-filter-select-options-option" value="">Please select category</option>
+				<option class="b-Maps__filters-filter-select-options-option" value="home">Home</option>
+				<option class="b-Maps__filters-filter-select-options-option" value="work">Work</option>
+				<option class="b-Maps__filters-filter-select-options-option" value="university">University</option>
+				<option class="b-Maps__filters-filter-select-options-option" value="car">Car</option>
+			</select>
+		</div>
+		<div class="b-Maps__filters-route" style="display: flex; flex-direction: column; justify-content: space-between; gap: 20px">
+			<div class="b-Maps__filters-route-section">
+				<h3 class="b-Maps__filters-route-text" style="font-size: 20px">Choose a route:</h3>
+				<b class="b-Maps__filters-route-text" style="font-size: 20px">Start:</b>
+				<select class="b-Maps__filters-route-select" style="width: 80%; height: 40px;" id="start">
+					<option class="b-Maps__filters-route-select-option" value="Warsaw, PL">Warszawa</option>
+					<option class="b-Maps__filters-route-select-option" value="Olsztyn, PL">Olsztyn</option>
+					<option class="b-Maps__filters-route-select-option" value="Lubawa, PL">Lubawa</option>
+				</select>
+			</div>
+			<div class="b-Maps__filters-route-section">
+				<b class="b-Maps__filters-route-text" style="font-size: 20px">Waypoints:</b>
+				<p class="b-Maps__filters-route-text" style="font-size: 10px">(Ctrl+Click or Cmd+Click for multiple selection)</p>
+				<select class="b-Maps__filters-route-select" style="width: 80%; height: 50px; overflow:hidden" multiple id="waypoints">
+					<option class="b-Maps__filters-route-select-option" value="Nidzica, PL">Nidzica</option>
+					<option class="b-Maps__filters-route-select-option" value="Kutno, PL">Kutno</option>
+					<option class="b-Maps__filters-route-select-option" value="Przasnysz, PL">Przasnysz</option>
+				</select>
+			</div>
+			<div class="b-Maps__filters-route-section">
+				<b class="b-Maps__filters-route-text" style="font-size: 20px">End:</b>
+				<select class="b-Maps__filters-route-select" style="width: 80%; height: 40px;" id="end">
+					<option class="b-Maps__filters-route-select-option" value="Warsaw, PL">Warszawa</option>
+					<option class="b-Maps__filters-route-select-option" value="Olsztyn, PL">Olsztyn</option>
+					<option class="b-Maps__filters-route-select-option" value="Sopot, PL">Sopot</option>
+				</select>
+			</div>
+			<input class="b-Maps__filters-route-submit" style="width: 80%; height: 40px; background-color: #0099CC" type="submit" id="submit" value="Submit"/>
+		</div>
+		<div class="b-Maps__filters-route-panel" id="directions-panel"></div>
+	</div>
+
+	<div class="b-Maps__map" id="map" style="position: relative; overflow: hidden; height: 60vh; width: 80%"></div>
+</div>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
 <script>
+	let fmarkers = [];
+
 	function initMap() {
-		const uluru = { lat: -25.344, lng: 131.031 };
+		const directionsService = new google.maps.DirectionsService();
+		const directionsRenderer = new google.maps.DirectionsRenderer();
+
+		const position = { lat: 53.770226, lng: 20.490189 };
 		const map = new google.maps.Map(document.getElementById("map"), {
-			zoom: 4,
-			center: uluru,
+			zoom: 8,
+			center: position,
 		});
-		const marker = new google.maps.Marker({
-			position: uluru,
-			map: map,
-		});
+
+
+		const markers = [
+			{
+				title: "Home 1",
+				lat: 53.56476543265001,
+				lng: 20.97808305465538,
+				icon: "{{theme.link}}/static/img/home.svg",
+				sizeW: 38,
+				sizeH: 31,
+				category: "home",
+			},
+			{
+				title: "Home 2",
+				lat: 53.60282077787154,
+				lng: 19.56068320220545,
+				icon: "{{theme.link}}/static/img/home.svg",
+				sizeW: 38,
+				sizeH: 31,
+				category: "home",
+			},
+			{
+				title: "University",
+				lat: 54.396204795285975,
+				lng: 18.574587070168423,
+				icon: "{{theme.link}}/static/img/university.svg",
+				sizeW: 38,
+				sizeH: 31,
+				category: "university",
+			},
+			{
+				title: "Work",
+				lat: 53.76398652652006,
+				lng: 20.520454182164702,
+				icon: "{{theme.link}}/static/img/work.svg",
+				sizeW: 38,
+				sizeH: 31,
+				category: "work",
+			},
+			{
+				title: "Car",
+				lat: 53.11415242088758,
+				lng: 18.055243220141463,
+				icon: "{{theme.link}}/static/img/car.svg",
+				sizeW: 38,
+				sizeH: 31,
+				category: "car",
+			},
+		];
+
+		for (let i = 0; i < markers.length; i++) {
+			setMarkers(markers[i], map);
 		}
 
-		window.initMap = initMap;
+
+		directionsRenderer.setMap(map);
+		document.getElementById("submit").addEventListener("click", () => {
+			calculateAndDisplayRoute(directionsService, directionsRenderer);
+		});
+	}
+
+	function setMarkers(markers, map) {
+		const marker = new google.maps.Marker({
+			position: { lat: markers.lat, lng: markers.lng },
+			map,
+			title: markers.title,
+			icon: {
+				url: markers.icon,
+				scaledSize: new google.maps.Size(markers.sizeW, markers.sizeH),
+			},
+			animation: google.maps.Animation.DROP,
+			category: markers.category,
+		});
+
+		fmarkers.push(marker);
+
+		const infowindow = new google.maps.InfoWindow({
+			content: markers.title,
+		});
+
+		marker.addListener("click", () => {
+			infowindow.open(map, marker);
+			console.log("you clicked on a marker");
+		});
+
+	}
+
+	filterMarkers = function (category) {
+		let bounds = new google.maps.LatLngBounds();
+		for (i = 0; i < fmarkers.length; i++) {
+			marker = fmarkers[i];
+			if (marker.category == category || category.length == 0) {
+				marker.setVisible(true);
+			}
+			else {
+				marker.setVisible(false);
+			}
+		}
+	};
+
+	function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+		const waypts = [];
+		const checkboxArray = document.getElementById("waypoints");
+
+		for (let i = 0; i < checkboxArray.length; i++) {
+			if (checkboxArray.options[i].selected) {
+				waypts.push({
+					location: checkboxArray[i].value,
+					stopover: true,
+				});
+			}
+		}
+
+		directionsService
+			.route({
+				origin: document.getElementById("start").value,
+				destination: document.getElementById("end").value,
+				waypoints: waypts,
+				optimizeWaypoints: true,
+				travelMode: google.maps.TravelMode.DRIVING,
+			})
+			.then((response) => {
+				directionsRenderer.setDirections(response);
+
+				const route = response.routes[0];
+				const summaryPanel = document.getElementById("directions-panel");
+
+				summaryPanel.innerHTML = "";
+
+				for (let i = 0; i < route.legs.length; i++) {
+					const routeSegment = i + 1;
+
+					summaryPanel.innerHTML +="<b>Route Segment: " + routeSegment + "</b><br>";
+					summaryPanel.innerHTML += route.legs[i].start_address + " to ";
+					summaryPanel.innerHTML += route.legs[i].end_address + "<br>";
+					summaryPanel.innerHTML += route.legs[i].distance.text + "<br><br>";
+				}
+			})
+			.catch((e) => window.alert("Directions request failed due to" + status));
+	}
+
+	window.initMap = initMap;
 </script>
