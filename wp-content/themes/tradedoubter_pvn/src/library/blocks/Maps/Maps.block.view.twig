@@ -17,16 +17,8 @@
 				<select class="b-Maps__filters-route-select" style="width: 80%; height: 40px;" id="start">
 					<option class="b-Maps__filters-route-select-option" value="Warsaw, PL">Warszawa</option>
 					<option class="b-Maps__filters-route-select-option" value="Olsztyn, PL">Olsztyn</option>
-					<option class="b-Maps__filters-route-select-option" value="Lubawa, PL">Lubawa</option>
-				</select>
-			</div>
-			<div class="b-Maps__filters-route-section">
-				<b class="b-Maps__filters-route-text" style="font-size: 20px">Waypoints:</b>
-				<p class="b-Maps__filters-route-text" style="font-size: 10px">(Ctrl+Click or Cmd+Click for multiple selection)</p>
-				<select class="b-Maps__filters-route-select" style="width: 80%; height: 50px; overflow:hidden" multiple id="waypoints">
-					<option class="b-Maps__filters-route-select-option" value="Nidzica, PL">Nidzica</option>
-					<option class="b-Maps__filters-route-select-option" value="Kutno, PL">Kutno</option>
-					<option class="b-Maps__filters-route-select-option" value="Przasnysz, PL">Przasnysz</option>
+					<option class="b-Maps__filters-route-select-option" value="Sopot, PL">Sopot</option>
+					<option class="b-Maps__filters-route-select-option" value="Szczytno, PL">Szczytno</option>
 				</select>
 			</div>
 			<div class="b-Maps__filters-route-section">
@@ -35,6 +27,7 @@
 					<option class="b-Maps__filters-route-select-option" value="Warsaw, PL">Warszawa</option>
 					<option class="b-Maps__filters-route-select-option" value="Olsztyn, PL">Olsztyn</option>
 					<option class="b-Maps__filters-route-select-option" value="Sopot, PL">Sopot</option>
+					<option class="b-Maps__filters-route-select-option" value="Szczytno, PL">Szczytno</option>
 				</select>
 			</div>
 			<input class="b-Maps__filters-route-submit" style="width: 80%; height: 40px; background-color: #0099CC" type="submit" id="submit" value="Submit"/>
@@ -159,45 +152,22 @@
 	};
 
 	function calculateAndDisplayRoute(directionsService, directionsRenderer) {
-		const waypts = [];
-		const checkboxArray = document.getElementById("waypoints");
-
-		for (let i = 0; i < checkboxArray.length; i++) {
-			if (checkboxArray.options[i].selected) {
-				waypts.push({
-					location: checkboxArray[i].value,
-					stopover: true,
-				});
-			}
-		}
-
 		directionsService
 			.route({
-				origin: document.getElementById("start").value,
-				destination: document.getElementById("end").value,
-				waypoints: waypts,
-				optimizeWaypoints: true,
+				origin: {
+					query: document.getElementById("start").value,
+				},
+				destination: {
+					query: document.getElementById("end").value,
+				},
 				travelMode: google.maps.TravelMode.DRIVING,
 			})
 			.then((response) => {
 				directionsRenderer.setDirections(response);
-
-				const route = response.routes[0];
-				const summaryPanel = document.getElementById("directions-panel");
-
-				summaryPanel.innerHTML = "";
-
-				for (let i = 0; i < route.legs.length; i++) {
-					const routeSegment = i + 1;
-
-					summaryPanel.innerHTML +="<b>Route Segment: " + routeSegment + "</b><br>";
-					summaryPanel.innerHTML += route.legs[i].start_address + " to ";
-					summaryPanel.innerHTML += route.legs[i].end_address + "<br>";
-					summaryPanel.innerHTML += route.legs[i].distance.text + "<br><br>";
-				}
 			})
-			.catch((e) => window.alert("Directions request failed due to" + status));
+			.catch((e) => window.alert("Directions request failed due to " + status));
 	}
+
 
 	window.initMap = initMap;
 </script>
