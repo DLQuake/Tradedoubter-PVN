@@ -8,6 +8,8 @@ This repository contains the "Tradedoubter PVN" website theme for wordpress .
 
 This website is created in WordPress and used Twig, SASS and JavaScript
 
+Version of this website created in HTML, SASS and JS: [LINK](https://github.com/DLQuake/Tradedoubter_PVN)
+
 ## Download
 There are two ways to download the repository:
 
