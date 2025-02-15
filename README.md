@@ -1,6 +1,6 @@
 # Tradedoubter PVN
 
-## Contents
+## Table of contents
  * [Short description of the repository](#short-description-of-the-repository)
  * [Download](#download)
 ## Short description of the repository
